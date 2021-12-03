@@ -1,0 +1,230 @@
+### YamlMime:ManagedReference
+items:
+- uid: CTRX.CTaperCycle.State
+  commentId: T:CTRX.CTaperCycle.State
+  id: CTaperCycle.State
+  parent: CTRX
+  children:
+  - CTRX.CTaperCycle.State.Step0
+  - CTRX.CTaperCycle.State.Step1
+  - CTRX.CTaperCycle.State.Step2
+  - CTRX.CTaperCycle.State.Step3
+  - CTRX.CTaperCycle.State.Step4
+  - CTRX.CTaperCycle.State.Step5
+  langs:
+  - csharp
+  - vb
+  name: CTaperCycle.State
+  nameWithType: CTaperCycle.State
+  fullName: CTRX.CTaperCycle.State
+  type: Enum
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+    id: State
+    path: CTaper.cs
+    startLine: 28
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: public enum State
+    content.vb: Public Enum State
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CTRX.CTaperCycle.State.Step0
+  commentId: F:CTRX.CTaperCycle.State.Step0
+  id: Step0
+  parent: CTRX.CTaperCycle.State
+  langs:
+  - csharp
+  - vb
+  name: Step0
+  nameWithType: CTaperCycle.State.Step0
+  fullName: CTRX.CTaperCycle.State.Step0
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+    id: Step0
+    path: CTaper.cs
+    startLine: 28
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Step0 = 0
+    return:
+      type: CTRX.CTaperCycle.State
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CTRX.CTaperCycle.State.Step1
+  commentId: F:CTRX.CTaperCycle.State.Step1
+  id: Step1
+  parent: CTRX.CTaperCycle.State
+  langs:
+  - csharp
+  - vb
+  name: Step1
+  nameWithType: CTaperCycle.State.Step1
+  fullName: CTRX.CTaperCycle.State.Step1
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+    id: Step1
+    path: CTaper.cs
+    startLine: 28
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Step1 = 1
+    return:
+      type: CTRX.CTaperCycle.State
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CTRX.CTaperCycle.State.Step2
+  commentId: F:CTRX.CTaperCycle.State.Step2
+  id: Step2
+  parent: CTRX.CTaperCycle.State
+  langs:
+  - csharp
+  - vb
+  name: Step2
+  nameWithType: CTaperCycle.State.Step2
+  fullName: CTRX.CTaperCycle.State.Step2
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+    id: Step2
+    path: CTaper.cs
+    startLine: 28
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Step2 = 2
+    return:
+      type: CTRX.CTaperCycle.State
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CTRX.CTaperCycle.State.Step3
+  commentId: F:CTRX.CTaperCycle.State.Step3
+  id: Step3
+  parent: CTRX.CTaperCycle.State
+  langs:
+  - csharp
+  - vb
+  name: Step3
+  nameWithType: CTaperCycle.State.Step3
+  fullName: CTRX.CTaperCycle.State.Step3
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+    id: Step3
+    path: CTaper.cs
+    startLine: 28
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Step3 = 3
+    return:
+      type: CTRX.CTaperCycle.State
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CTRX.CTaperCycle.State.Step4
+  commentId: F:CTRX.CTaperCycle.State.Step4
+  id: Step4
+  parent: CTRX.CTaperCycle.State
+  langs:
+  - csharp
+  - vb
+  name: Step4
+  nameWithType: CTaperCycle.State.Step4
+  fullName: CTRX.CTaperCycle.State.Step4
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+    id: Step4
+    path: CTaper.cs
+    startLine: 28
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Step4 = 4
+    return:
+      type: CTRX.CTaperCycle.State
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CTRX.CTaperCycle.State.Step5
+  commentId: F:CTRX.CTaperCycle.State.Step5
+  id: Step5
+  parent: CTRX.CTaperCycle.State
+  langs:
+  - csharp
+  - vb
+  name: Step5
+  nameWithType: CTaperCycle.State.Step5
+  fullName: CTRX.CTaperCycle.State.Step5
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+    id: Step5
+    path: CTaper.cs
+    startLine: 28
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Step5 = 5
+    return:
+      type: CTRX.CTaperCycle.State
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CTRX
+  commentId: N:CTRX
+  name: CTRX
+  nameWithType: CTRX
+  fullName: CTRX
+- uid: CTRX.CTaperCycle.State
+  commentId: T:CTRX.CTaperCycle.State
+  parent: CTRX
+  name: CTaperCycle.State
+  nameWithType: CTaperCycle.State
+  fullName: CTRX.CTaperCycle.State

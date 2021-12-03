@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: CTrxHandler
+  commentId: N:CTrxHandler
+  id: CTrxHandler
+  children:
+  - CTrxHandler.CTrxHandler
+  langs:
+  - csharp
+  - vb
+  name: CTrxHandler
+  nameWithType: CTrxHandler
+  fullName: CTrxHandler
+  type: Namespace
+  assemblies:
+  - CTRX
+references:
+- uid: CTrxHandler.CTrxHandler
+  commentId: T:CTrxHandler.CTrxHandler
+  name: CTrxHandler
+  nameWithType: CTrxHandler
+  fullName: CTrxHandler.CTrxHandler

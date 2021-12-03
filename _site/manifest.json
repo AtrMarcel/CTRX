@@ -1,0 +1,284 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/Marcel SOULIERS/source/repos/CTRX",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "XgPNdj/aXzDasUNiQSLBfCgYtpTbC/ViUznhMmHH2Yw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "7UxNfjF3xidnpVKqY/1PM11CThnGw35/3OTUa1fLZzY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "gA35v7881qO2iDmY1ZFSoaibtux3FOuzgUMhGf8/nVo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CTRX.CCycleStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CTRX.CCycleStatus.html",
+          "hash": "Th/5onc/hZ3oISzxkzjrCume34ZbNN8QtbHrf8LcBIU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CTRX.CDetaper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CTRX.CDetaper.html",
+          "hash": "NHoD8N/n1SgVZbvQNhrMoEVG14xnI4Rj39Gdb4p75Ao="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CTRX.CDetaperCycle.State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CTRX.CDetaperCycle.State.html",
+          "hash": "f2E4oBofSoqHM2dWF9Ak8EFJMk3ST5aYBUf7nR4B+98="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CTRX.CDetaperCycle.Trigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CTRX.CDetaperCycle.Trigger.html",
+          "hash": "gXctma8AHgJE84EsNp3qRVOKqtmAGYc5LNadDgXIy1A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CTRX.CDetaperCycle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CTRX.CDetaperCycle.html",
+          "hash": "BlumOKl7gqGNV9gC9ExH3VFm/hxmZWCyFiDR3rbEvdo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CTRX.CPoste.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CTRX.CPoste.html",
+          "hash": "fqv/6UqNIzMXsPXLsy8WN5Ao/sMVZV5HtJILjf94UDg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CTRX.CTaper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CTRX.CTaper.html",
+          "hash": "w2ORkEUOQYccgFL6wfmLrx7QaciLQVhR+NWsB+2a12E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CTRX.CTaperCycle.State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CTRX.CTaperCycle.State.html",
+          "hash": "FFnai9UEZlvRj2P5Xbke96vvg1l55QWEhMrgsaSpQs8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CTRX.CTaperCycle.Trigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CTRX.CTaperCycle.Trigger.html",
+          "hash": "lvgEYC5KW0JuIBpWdC0Zz60f0Gephe8+7cfRLQZyfiY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CTRX.CTaperCycle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CTRX.CTaperCycle.html",
+          "hash": "2I2QIZAZbWknPYUEPgIWbLvRB2Q7PHKoS4eThx1pVHw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CTRX.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CTRX.html",
+          "hash": "RTMZCKCuc9DVFaKnpDnXdmrE0Po9ER7oTiYcbV89hzQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CTrxHandler.CTrxHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CTrxHandler.CTrxHandler.html",
+          "hash": "WsmIu+4tqL6Y5ojXYwBbBK1df0gMTLR13jJXfKxVMEs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/CTrxHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CTrxHandler.html",
+          "hash": "RAubW+45mLzuQ8KPFgCQF4ankkAojq4xFFX/eOovx0w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "H8YwULmPDICs1XmdjcNNjHK1pELKmfW2xJ6nvjiOFKU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Oa9PuD4E1hvZnCkVjUgzNBX6S00Zo5YilamTERTZo54="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 13,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

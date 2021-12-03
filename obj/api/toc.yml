@@ -1,0 +1,29 @@
+### YamlMime:TableOfContent
+- uid: CTRX
+  name: CTRX
+  items:
+  - uid: CTRX.CCycleStatus
+    name: CCycleStatus
+  - uid: CTRX.CDetaper
+    name: CDetaper
+  - uid: CTRX.CDetaperCycle
+    name: CDetaperCycle
+  - uid: CTRX.CDetaperCycle.State
+    name: CDetaperCycle.State
+  - uid: CTRX.CDetaperCycle.Trigger
+    name: CDetaperCycle.Trigger
+  - uid: CTRX.CPoste
+    name: CPoste
+  - uid: CTRX.CTaper
+    name: CTaper
+  - uid: CTRX.CTaperCycle
+    name: CTaperCycle
+  - uid: CTRX.CTaperCycle.State
+    name: CTaperCycle.State
+  - uid: CTRX.CTaperCycle.Trigger
+    name: CTaperCycle.Trigger
+- uid: CTrxHandler
+  name: CTrxHandler
+  items:
+  - uid: CTrxHandler.CTrxHandler
+    name: CTrxHandler

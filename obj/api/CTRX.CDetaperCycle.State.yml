@@ -1,0 +1,230 @@
+### YamlMime:ManagedReference
+items:
+- uid: CTRX.CDetaperCycle.State
+  commentId: T:CTRX.CDetaperCycle.State
+  id: CDetaperCycle.State
+  parent: CTRX
+  children:
+  - CTRX.CDetaperCycle.State.Step0
+  - CTRX.CDetaperCycle.State.Step1
+  - CTRX.CDetaperCycle.State.Step2
+  - CTRX.CDetaperCycle.State.Step3
+  - CTRX.CDetaperCycle.State.Step4
+  - CTRX.CDetaperCycle.State.Step5
+  langs:
+  - csharp
+  - vb
+  name: CDetaperCycle.State
+  nameWithType: CDetaperCycle.State
+  fullName: CTRX.CDetaperCycle.State
+  type: Enum
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: State
+    path: CDetaper.cs
+    startLine: 28
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: public enum State
+    content.vb: Public Enum State
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CTRX.CDetaperCycle.State.Step0
+  commentId: F:CTRX.CDetaperCycle.State.Step0
+  id: Step0
+  parent: CTRX.CDetaperCycle.State
+  langs:
+  - csharp
+  - vb
+  name: Step0
+  nameWithType: CDetaperCycle.State.Step0
+  fullName: CTRX.CDetaperCycle.State.Step0
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: Step0
+    path: CDetaper.cs
+    startLine: 28
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Step0 = 0
+    return:
+      type: CTRX.CDetaperCycle.State
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CTRX.CDetaperCycle.State.Step1
+  commentId: F:CTRX.CDetaperCycle.State.Step1
+  id: Step1
+  parent: CTRX.CDetaperCycle.State
+  langs:
+  - csharp
+  - vb
+  name: Step1
+  nameWithType: CDetaperCycle.State.Step1
+  fullName: CTRX.CDetaperCycle.State.Step1
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: Step1
+    path: CDetaper.cs
+    startLine: 28
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Step1 = 1
+    return:
+      type: CTRX.CDetaperCycle.State
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CTRX.CDetaperCycle.State.Step2
+  commentId: F:CTRX.CDetaperCycle.State.Step2
+  id: Step2
+  parent: CTRX.CDetaperCycle.State
+  langs:
+  - csharp
+  - vb
+  name: Step2
+  nameWithType: CDetaperCycle.State.Step2
+  fullName: CTRX.CDetaperCycle.State.Step2
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: Step2
+    path: CDetaper.cs
+    startLine: 28
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Step2 = 2
+    return:
+      type: CTRX.CDetaperCycle.State
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CTRX.CDetaperCycle.State.Step3
+  commentId: F:CTRX.CDetaperCycle.State.Step3
+  id: Step3
+  parent: CTRX.CDetaperCycle.State
+  langs:
+  - csharp
+  - vb
+  name: Step3
+  nameWithType: CDetaperCycle.State.Step3
+  fullName: CTRX.CDetaperCycle.State.Step3
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: Step3
+    path: CDetaper.cs
+    startLine: 28
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Step3 = 3
+    return:
+      type: CTRX.CDetaperCycle.State
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CTRX.CDetaperCycle.State.Step4
+  commentId: F:CTRX.CDetaperCycle.State.Step4
+  id: Step4
+  parent: CTRX.CDetaperCycle.State
+  langs:
+  - csharp
+  - vb
+  name: Step4
+  nameWithType: CDetaperCycle.State.Step4
+  fullName: CTRX.CDetaperCycle.State.Step4
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: Step4
+    path: CDetaper.cs
+    startLine: 28
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Step4 = 4
+    return:
+      type: CTRX.CDetaperCycle.State
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CTRX.CDetaperCycle.State.Step5
+  commentId: F:CTRX.CDetaperCycle.State.Step5
+  id: Step5
+  parent: CTRX.CDetaperCycle.State
+  langs:
+  - csharp
+  - vb
+  name: Step5
+  nameWithType: CDetaperCycle.State.Step5
+  fullName: CTRX.CDetaperCycle.State.Step5
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: Step5
+    path: CDetaper.cs
+    startLine: 28
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Step5 = 5
+    return:
+      type: CTRX.CDetaperCycle.State
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CTRX
+  commentId: N:CTRX
+  name: CTRX
+  nameWithType: CTRX
+  fullName: CTRX
+- uid: CTRX.CDetaperCycle.State
+  commentId: T:CTRX.CDetaperCycle.State
+  parent: CTRX
+  name: CDetaperCycle.State
+  nameWithType: CDetaperCycle.State
+  fullName: CTRX.CDetaperCycle.State

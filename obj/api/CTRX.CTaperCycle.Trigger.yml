@@ -1,0 +1,261 @@
+### YamlMime:ManagedReference
+items:
+- uid: CTRX.CTaperCycle.Trigger
+  commentId: T:CTRX.CTaperCycle.Trigger
+  id: CTaperCycle.Trigger
+  parent: CTRX
+  children:
+  - CTRX.CTaperCycle.Trigger.Tr0
+  - CTRX.CTaperCycle.Trigger.Tr1
+  - CTRX.CTaperCycle.Trigger.Tr2
+  - CTRX.CTaperCycle.Trigger.Tr3
+  - CTRX.CTaperCycle.Trigger.Tr4
+  - CTRX.CTaperCycle.Trigger.Tr5
+  - CTRX.CTaperCycle.Trigger.Tr6
+  langs:
+  - csharp
+  - vb
+  name: CTaperCycle.Trigger
+  nameWithType: CTaperCycle.Trigger
+  fullName: CTRX.CTaperCycle.Trigger
+  type: Enum
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+    id: Trigger
+    path: CTaper.cs
+    startLine: 29
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: public enum Trigger
+    content.vb: Public Enum Trigger
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CTRX.CTaperCycle.Trigger.Tr0
+  commentId: F:CTRX.CTaperCycle.Trigger.Tr0
+  id: Tr0
+  parent: CTRX.CTaperCycle.Trigger
+  langs:
+  - csharp
+  - vb
+  name: Tr0
+  nameWithType: CTaperCycle.Trigger.Tr0
+  fullName: CTRX.CTaperCycle.Trigger.Tr0
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+    id: Tr0
+    path: CTaper.cs
+    startLine: 29
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Tr0 = 0
+    return:
+      type: CTRX.CTaperCycle.Trigger
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CTRX.CTaperCycle.Trigger.Tr1
+  commentId: F:CTRX.CTaperCycle.Trigger.Tr1
+  id: Tr1
+  parent: CTRX.CTaperCycle.Trigger
+  langs:
+  - csharp
+  - vb
+  name: Tr1
+  nameWithType: CTaperCycle.Trigger.Tr1
+  fullName: CTRX.CTaperCycle.Trigger.Tr1
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+    id: Tr1
+    path: CTaper.cs
+    startLine: 29
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Tr1 = 1
+    return:
+      type: CTRX.CTaperCycle.Trigger
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CTRX.CTaperCycle.Trigger.Tr2
+  commentId: F:CTRX.CTaperCycle.Trigger.Tr2
+  id: Tr2
+  parent: CTRX.CTaperCycle.Trigger
+  langs:
+  - csharp
+  - vb
+  name: Tr2
+  nameWithType: CTaperCycle.Trigger.Tr2
+  fullName: CTRX.CTaperCycle.Trigger.Tr2
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+    id: Tr2
+    path: CTaper.cs
+    startLine: 29
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Tr2 = 2
+    return:
+      type: CTRX.CTaperCycle.Trigger
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CTRX.CTaperCycle.Trigger.Tr3
+  commentId: F:CTRX.CTaperCycle.Trigger.Tr3
+  id: Tr3
+  parent: CTRX.CTaperCycle.Trigger
+  langs:
+  - csharp
+  - vb
+  name: Tr3
+  nameWithType: CTaperCycle.Trigger.Tr3
+  fullName: CTRX.CTaperCycle.Trigger.Tr3
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+    id: Tr3
+    path: CTaper.cs
+    startLine: 29
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Tr3 = 3
+    return:
+      type: CTRX.CTaperCycle.Trigger
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CTRX.CTaperCycle.Trigger.Tr4
+  commentId: F:CTRX.CTaperCycle.Trigger.Tr4
+  id: Tr4
+  parent: CTRX.CTaperCycle.Trigger
+  langs:
+  - csharp
+  - vb
+  name: Tr4
+  nameWithType: CTaperCycle.Trigger.Tr4
+  fullName: CTRX.CTaperCycle.Trigger.Tr4
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+    id: Tr4
+    path: CTaper.cs
+    startLine: 29
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Tr4 = 4
+    return:
+      type: CTRX.CTaperCycle.Trigger
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CTRX.CTaperCycle.Trigger.Tr5
+  commentId: F:CTRX.CTaperCycle.Trigger.Tr5
+  id: Tr5
+  parent: CTRX.CTaperCycle.Trigger
+  langs:
+  - csharp
+  - vb
+  name: Tr5
+  nameWithType: CTaperCycle.Trigger.Tr5
+  fullName: CTRX.CTaperCycle.Trigger.Tr5
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+    id: Tr5
+    path: CTaper.cs
+    startLine: 29
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Tr5 = 5
+    return:
+      type: CTRX.CTaperCycle.Trigger
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CTRX.CTaperCycle.Trigger.Tr6
+  commentId: F:CTRX.CTaperCycle.Trigger.Tr6
+  id: Tr6
+  parent: CTRX.CTaperCycle.Trigger
+  langs:
+  - csharp
+  - vb
+  name: Tr6
+  nameWithType: CTaperCycle.Trigger.Tr6
+  fullName: CTRX.CTaperCycle.Trigger.Tr6
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+    id: Tr6
+    path: CTaper.cs
+    startLine: 29
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Tr6 = 6
+    return:
+      type: CTRX.CTaperCycle.Trigger
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CTRX
+  commentId: N:CTRX
+  name: CTRX
+  nameWithType: CTRX
+  fullName: CTRX
+- uid: CTRX.CTaperCycle.Trigger
+  commentId: T:CTRX.CTaperCycle.Trigger
+  parent: CTRX
+  name: CTaperCycle.Trigger
+  nameWithType: CTaperCycle.Trigger
+  fullName: CTRX.CTaperCycle.Trigger

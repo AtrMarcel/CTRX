@@ -1,0 +1,3217 @@
+id: CTRX
+language: CSharp
+name:
+  Default: CTRX
+qualifiedName:
+  Default: CTRX
+type: Assembly
+modifiers: {}
+items:
+- id: CTRX
+  commentId: N:CTRX
+  language: CSharp
+  name:
+    CSharp: CTRX
+    VB: CTRX
+  nameWithType:
+    CSharp: CTRX
+    VB: CTRX
+  qualifiedName:
+    CSharp: CTRX
+    VB: CTRX
+  type: Namespace
+  assemblies:
+  - CTRX
+  modifiers: {}
+  items:
+  - id: CTRX.CCycleStatus
+    commentId: T:CTRX.CCycleStatus
+    language: CSharp
+    name:
+      CSharp: CCycleStatus
+      VB: CCycleStatus
+    nameWithType:
+      CSharp: CCycleStatus
+      VB: CCycleStatus
+    qualifiedName:
+      CSharp: CTRX.CCycleStatus
+      VB: CTRX.CCycleStatus
+    type: Class
+    assemblies:
+    - CTRX
+    namespace: CTRX
+    source:
+      remote:
+        path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CCycleStatus.cs
+      id: CCycleStatus
+      path: CCycleStatus.cs
+      startLine: 7
+    syntax:
+      content:
+        CSharp: public class CCycleStatus
+        VB: Public Class CCycleStatus
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items: []
+  - id: CTRX.CDetaper
+    commentId: T:CTRX.CDetaper
+    language: CSharp
+    name:
+      CSharp: CDetaper
+      VB: CDetaper
+    nameWithType:
+      CSharp: CDetaper
+      VB: CDetaper
+    qualifiedName:
+      CSharp: CTRX.CDetaper
+      VB: CTRX.CDetaper
+    type: Class
+    assemblies:
+    - CTRX
+    namespace: CTRX
+    source:
+      remote:
+        path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+      id: CDetaper
+      path: CDetaper.cs
+      startLine: 11
+    syntax:
+      content:
+        CSharp: 'public class CDetaper : CPoste'
+        VB: >-
+          Public Class CDetaper
+
+              Inherits CPoste
+    inheritance:
+    - System.Object
+    - CTRX.CPoste
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: CTRX.CDetaper.detaperCycle
+      commentId: F:CTRX.CDetaper.detaperCycle
+      language: CSharp
+      name:
+        CSharp: detaperCycle
+        VB: detaperCycle
+      nameWithType:
+        CSharp: CDetaper.detaperCycle
+        VB: CDetaper.detaperCycle
+      qualifiedName:
+        CSharp: CTRX.CDetaper.detaperCycle
+        VB: CTRX.CDetaper.detaperCycle
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: detaperCycle
+        path: CDetaper.cs
+        startLine: 13
+      syntax:
+        content:
+          CSharp: public CDetaperCycle detaperCycle
+          VB: Public detaperCycle As CDetaperCycle
+        return:
+          type: CTRX.CDetaperCycle
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: CTRX.CDetaper.#ctor
+      commentId: M:CTRX.CDetaper.#ctor
+      language: CSharp
+      name:
+        CSharp: CDetaper()
+        VB: CDetaper()
+      nameWithType:
+        CSharp: CDetaper.CDetaper()
+        VB: CDetaper.CDetaper()
+      qualifiedName:
+        CSharp: CTRX.CDetaper.CDetaper()
+        VB: CTRX.CDetaper.CDetaper()
+      type: Constructor
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: .ctor
+        path: CDetaper.cs
+        startLine: 15
+      syntax:
+        content:
+          CSharp: public CDetaper()
+          VB: Public Sub New
+      overload: CTRX.CDetaper.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: CTRX.CDetaper.#ctor(CTRX.CDetaperCycle)
+      commentId: M:CTRX.CDetaper.#ctor(CTRX.CDetaperCycle)
+      language: CSharp
+      name:
+        CSharp: CDetaper(CDetaperCycle)
+        VB: CDetaper(CDetaperCycle)
+      nameWithType:
+        CSharp: CDetaper.CDetaper(CDetaperCycle)
+        VB: CDetaper.CDetaper(CDetaperCycle)
+      qualifiedName:
+        CSharp: CTRX.CDetaper.CDetaper(CTRX.CDetaperCycle)
+        VB: CTRX.CDetaper.CDetaper(CTRX.CDetaperCycle)
+      type: Constructor
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: .ctor
+        path: CDetaper.cs
+        startLine: 20
+      syntax:
+        content:
+          CSharp: public CDetaper(CDetaperCycle detaperCycle)
+          VB: Public Sub New(detaperCycle As CDetaperCycle)
+        parameters:
+        - id: detaperCycle
+          type: CTRX.CDetaperCycle
+      overload: CTRX.CDetaper.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: CTRX.CDetaperCycle
+    commentId: T:CTRX.CDetaperCycle
+    language: CSharp
+    name:
+      CSharp: CDetaperCycle
+      VB: CDetaperCycle
+    nameWithType:
+      CSharp: CDetaperCycle
+      VB: CDetaperCycle
+    qualifiedName:
+      CSharp: CTRX.CDetaperCycle
+      VB: CTRX.CDetaperCycle
+    type: Class
+    assemblies:
+    - CTRX
+    namespace: CTRX
+    source:
+      remote:
+        path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+      id: CDetaperCycle
+      path: CDetaper.cs
+      startLine: 26
+    syntax:
+      content:
+        CSharp: 'public class CDetaperCycle : CCycleStatus'
+        VB: >-
+          Public Class CDetaperCycle
+
+              Inherits CCycleStatus
+    inheritance:
+    - System.Object
+    - CTRX.CCycleStatus
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: CTRX.CDetaperCycle.DateStartCycle
+      commentId: P:CTRX.CDetaperCycle.DateStartCycle
+      language: CSharp
+      name:
+        CSharp: DateStartCycle
+        VB: DateStartCycle
+      nameWithType:
+        CSharp: CDetaperCycle.DateStartCycle
+        VB: CDetaperCycle.DateStartCycle
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.DateStartCycle
+        VB: CTRX.CDetaperCycle.DateStartCycle
+      type: Property
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: DateStartCycle
+        path: CDetaper.cs
+        startLine: 41
+      syntax:
+        content:
+          CSharp: public DateTime DateStartCycle { get; set; }
+          VB: Public Property DateStartCycle As Date
+        parameters: []
+        return:
+          type: System.DateTime
+      overload: CTRX.CDetaperCycle.DateStartCycle*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: CTRX.CDetaperCycle.DateEndCycle
+      commentId: P:CTRX.CDetaperCycle.DateEndCycle
+      language: CSharp
+      name:
+        CSharp: DateEndCycle
+        VB: DateEndCycle
+      nameWithType:
+        CSharp: CDetaperCycle.DateEndCycle
+        VB: CDetaperCycle.DateEndCycle
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.DateEndCycle
+        VB: CTRX.CDetaperCycle.DateEndCycle
+      type: Property
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: DateEndCycle
+        path: CDetaper.cs
+        startLine: 42
+      syntax:
+        content:
+          CSharp: public DateTime DateEndCycle { get; set; }
+          VB: Public Property DateEndCycle As Date
+        parameters: []
+        return:
+          type: System.DateTime
+      overload: CTRX.CDetaperCycle.DateEndCycle*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: CTRX.CDetaperCycle.DateEndStep
+      commentId: P:CTRX.CDetaperCycle.DateEndStep
+      language: CSharp
+      name:
+        CSharp: DateEndStep
+        VB: DateEndStep
+      nameWithType:
+        CSharp: CDetaperCycle.DateEndStep
+        VB: CDetaperCycle.DateEndStep
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.DateEndStep
+        VB: CTRX.CDetaperCycle.DateEndStep
+      type: Property
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: DateEndStep
+        path: CDetaper.cs
+        startLine: 43
+      syntax:
+        content:
+          CSharp: public DateTime DateEndStep { get; set; }
+          VB: Public Property DateEndStep As Date
+        parameters: []
+        return:
+          type: System.DateTime
+      overload: CTRX.CDetaperCycle.DateEndStep*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: CTRX.CDetaperCycle.DateStartStep
+      commentId: P:CTRX.CDetaperCycle.DateStartStep
+      language: CSharp
+      name:
+        CSharp: DateStartStep
+        VB: DateStartStep
+      nameWithType:
+        CSharp: CDetaperCycle.DateStartStep
+        VB: CDetaperCycle.DateStartStep
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.DateStartStep
+        VB: CTRX.CDetaperCycle.DateStartStep
+      type: Property
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: DateStartStep
+        path: CDetaper.cs
+        startLine: 44
+      syntax:
+        content:
+          CSharp: public DateTime DateStartStep { get; set; }
+          VB: Public Property DateStartStep As Date
+        parameters: []
+        return:
+          type: System.DateTime
+      overload: CTRX.CDetaperCycle.DateStartStep*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: CTRX.CDetaperCycle.ProcessArmed
+      commentId: E:CTRX.CDetaperCycle.ProcessArmed
+      language: CSharp
+      name:
+        CSharp: ProcessArmed
+        VB: ProcessArmed
+      nameWithType:
+        CSharp: CDetaperCycle.ProcessArmed
+        VB: CDetaperCycle.ProcessArmed
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.ProcessArmed
+        VB: CTRX.CDetaperCycle.ProcessArmed
+      type: Event
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: ProcessArmed
+        path: CDetaper.cs
+        startLine: 46
+      syntax:
+        content:
+          CSharp: public event EventHandler ProcessArmed
+          VB: Public Event ProcessArmed As EventHandler
+        return:
+          type: System.EventHandler
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: CTRX.CDetaperCycle.ProcessCompleted
+      commentId: E:CTRX.CDetaperCycle.ProcessCompleted
+      language: CSharp
+      name:
+        CSharp: ProcessCompleted
+        VB: ProcessCompleted
+      nameWithType:
+        CSharp: CDetaperCycle.ProcessCompleted
+        VB: CDetaperCycle.ProcessCompleted
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.ProcessCompleted
+        VB: CTRX.CDetaperCycle.ProcessCompleted
+      type: Event
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: ProcessCompleted
+        path: CDetaper.cs
+        startLine: 47
+      syntax:
+        content:
+          CSharp: public event EventHandler ProcessCompleted
+          VB: Public Event ProcessCompleted As EventHandler
+        return:
+          type: System.EventHandler
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: CTRX.CDetaperCycle.ProcessStarted
+      commentId: E:CTRX.CDetaperCycle.ProcessStarted
+      language: CSharp
+      name:
+        CSharp: ProcessStarted
+        VB: ProcessStarted
+      nameWithType:
+        CSharp: CDetaperCycle.ProcessStarted
+        VB: CDetaperCycle.ProcessStarted
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.ProcessStarted
+        VB: CTRX.CDetaperCycle.ProcessStarted
+      type: Event
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: ProcessStarted
+        path: CDetaper.cs
+        startLine: 48
+      syntax:
+        content:
+          CSharp: public event EventHandler ProcessStarted
+          VB: Public Event ProcessStarted As EventHandler
+        return:
+          type: System.EventHandler
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: CTRX.CDetaperCycle.ProcessError
+      commentId: E:CTRX.CDetaperCycle.ProcessError
+      language: CSharp
+      name:
+        CSharp: ProcessError
+        VB: ProcessError
+      nameWithType:
+        CSharp: CDetaperCycle.ProcessError
+        VB: CDetaperCycle.ProcessError
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.ProcessError
+        VB: CTRX.CDetaperCycle.ProcessError
+      type: Event
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: ProcessError
+        path: CDetaper.cs
+        startLine: 49
+      syntax:
+        content:
+          CSharp: public event EventHandler ProcessError
+          VB: Public Event ProcessError As EventHandler
+        return:
+          type: System.EventHandler
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: CTRX.CDetaperCycle.#ctor(CTRX.CDetaperCycle.State)
+      commentId: M:CTRX.CDetaperCycle.#ctor(CTRX.CDetaperCycle.State)
+      language: CSharp
+      name:
+        CSharp: CDetaperCycle(CDetaperCycle.State)
+        VB: CDetaperCycle(CDetaperCycle.State)
+      nameWithType:
+        CSharp: CDetaperCycle.CDetaperCycle(CDetaperCycle.State)
+        VB: CDetaperCycle.CDetaperCycle(CDetaperCycle.State)
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.CDetaperCycle(CTRX.CDetaperCycle.State)
+        VB: CTRX.CDetaperCycle.CDetaperCycle(CTRX.CDetaperCycle.State)
+      type: Constructor
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: .ctor
+        path: CDetaper.cs
+        startLine: 51
+      syntax:
+        content:
+          CSharp: public CDetaperCycle(CDetaperCycle.State state)
+          VB: Public Sub New(state As CDetaperCycle.State)
+        parameters:
+        - id: state
+          type: CTRX.CDetaperCycle.State
+      overload: CTRX.CDetaperCycle.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: CTRX.CDetaperCycle.OnProcessArmed(System.EventArgs)
+      commentId: M:CTRX.CDetaperCycle.OnProcessArmed(System.EventArgs)
+      language: CSharp
+      name:
+        CSharp: OnProcessArmed(EventArgs)
+        VB: OnProcessArmed(EventArgs)
+      nameWithType:
+        CSharp: CDetaperCycle.OnProcessArmed(EventArgs)
+        VB: CDetaperCycle.OnProcessArmed(EventArgs)
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.OnProcessArmed(System.EventArgs)
+        VB: CTRX.CDetaperCycle.OnProcessArmed(System.EventArgs)
+      type: Method
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: OnProcessArmed
+        path: CDetaper.cs
+        startLine: 171
+      syntax:
+        content:
+          CSharp: protected virtual void OnProcessArmed(EventArgs e)
+          VB: Protected Overridable Sub OnProcessArmed(e As EventArgs)
+        parameters:
+        - id: e
+          type: System.EventArgs
+      overload: CTRX.CDetaperCycle.OnProcessArmed*
+      modifiers:
+        CSharp:
+        - protected
+        - virtual
+        VB:
+        - Protected
+        - Overridable
+    - id: CTRX.CDetaperCycle.OnProcessStarted(System.EventArgs)
+      commentId: M:CTRX.CDetaperCycle.OnProcessStarted(System.EventArgs)
+      language: CSharp
+      name:
+        CSharp: OnProcessStarted(EventArgs)
+        VB: OnProcessStarted(EventArgs)
+      nameWithType:
+        CSharp: CDetaperCycle.OnProcessStarted(EventArgs)
+        VB: CDetaperCycle.OnProcessStarted(EventArgs)
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.OnProcessStarted(System.EventArgs)
+        VB: CTRX.CDetaperCycle.OnProcessStarted(System.EventArgs)
+      type: Method
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: OnProcessStarted
+        path: CDetaper.cs
+        startLine: 175
+      syntax:
+        content:
+          CSharp: protected virtual void OnProcessStarted(EventArgs e)
+          VB: Protected Overridable Sub OnProcessStarted(e As EventArgs)
+        parameters:
+        - id: e
+          type: System.EventArgs
+      overload: CTRX.CDetaperCycle.OnProcessStarted*
+      modifiers:
+        CSharp:
+        - protected
+        - virtual
+        VB:
+        - Protected
+        - Overridable
+    - id: CTRX.CDetaperCycle.OnProcessCompleted(System.EventArgs)
+      commentId: M:CTRX.CDetaperCycle.OnProcessCompleted(System.EventArgs)
+      language: CSharp
+      name:
+        CSharp: OnProcessCompleted(EventArgs)
+        VB: OnProcessCompleted(EventArgs)
+      nameWithType:
+        CSharp: CDetaperCycle.OnProcessCompleted(EventArgs)
+        VB: CDetaperCycle.OnProcessCompleted(EventArgs)
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.OnProcessCompleted(System.EventArgs)
+        VB: CTRX.CDetaperCycle.OnProcessCompleted(System.EventArgs)
+      type: Method
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: OnProcessCompleted
+        path: CDetaper.cs
+        startLine: 186
+      syntax:
+        content:
+          CSharp: protected virtual void OnProcessCompleted(EventArgs e)
+          VB: Protected Overridable Sub OnProcessCompleted(e As EventArgs)
+        parameters:
+        - id: e
+          type: System.EventArgs
+      overload: CTRX.CDetaperCycle.OnProcessCompleted*
+      modifiers:
+        CSharp:
+        - protected
+        - virtual
+        VB:
+        - Protected
+        - Overridable
+  - id: CTRX.CDetaperCycle.State
+    commentId: T:CTRX.CDetaperCycle.State
+    language: CSharp
+    name:
+      CSharp: CDetaperCycle.State
+      VB: CDetaperCycle.State
+    nameWithType:
+      CSharp: CDetaperCycle.State
+      VB: CDetaperCycle.State
+    qualifiedName:
+      CSharp: CTRX.CDetaperCycle.State
+      VB: CTRX.CDetaperCycle.State
+    type: Enum
+    assemblies:
+    - CTRX
+    namespace: CTRX
+    source:
+      remote:
+        path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+      id: State
+      path: CDetaper.cs
+      startLine: 28
+    syntax:
+      content:
+        CSharp: public enum State
+        VB: Public Enum State
+    modifiers:
+      CSharp:
+      - public
+      - enum
+      VB:
+      - Public
+      - Enum
+    items:
+    - id: CTRX.CDetaperCycle.State.Step0
+      commentId: F:CTRX.CDetaperCycle.State.Step0
+      language: CSharp
+      name:
+        CSharp: Step0
+        VB: Step0
+      nameWithType:
+        CSharp: CDetaperCycle.State.Step0
+        VB: CDetaperCycle.State.Step0
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.State.Step0
+        VB: CTRX.CDetaperCycle.State.Step0
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: Step0
+        path: CDetaper.cs
+        startLine: 28
+      syntax:
+        content:
+          CSharp: Step0 = 0
+          VB: Step0 = 0
+        return:
+          type: CTRX.CDetaperCycle.State
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: CTRX.CDetaperCycle.State.Step1
+      commentId: F:CTRX.CDetaperCycle.State.Step1
+      language: CSharp
+      name:
+        CSharp: Step1
+        VB: Step1
+      nameWithType:
+        CSharp: CDetaperCycle.State.Step1
+        VB: CDetaperCycle.State.Step1
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.State.Step1
+        VB: CTRX.CDetaperCycle.State.Step1
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: Step1
+        path: CDetaper.cs
+        startLine: 28
+      syntax:
+        content:
+          CSharp: Step1 = 1
+          VB: Step1 = 1
+        return:
+          type: CTRX.CDetaperCycle.State
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: CTRX.CDetaperCycle.State.Step2
+      commentId: F:CTRX.CDetaperCycle.State.Step2
+      language: CSharp
+      name:
+        CSharp: Step2
+        VB: Step2
+      nameWithType:
+        CSharp: CDetaperCycle.State.Step2
+        VB: CDetaperCycle.State.Step2
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.State.Step2
+        VB: CTRX.CDetaperCycle.State.Step2
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: Step2
+        path: CDetaper.cs
+        startLine: 28
+      syntax:
+        content:
+          CSharp: Step2 = 2
+          VB: Step2 = 2
+        return:
+          type: CTRX.CDetaperCycle.State
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: CTRX.CDetaperCycle.State.Step3
+      commentId: F:CTRX.CDetaperCycle.State.Step3
+      language: CSharp
+      name:
+        CSharp: Step3
+        VB: Step3
+      nameWithType:
+        CSharp: CDetaperCycle.State.Step3
+        VB: CDetaperCycle.State.Step3
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.State.Step3
+        VB: CTRX.CDetaperCycle.State.Step3
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: Step3
+        path: CDetaper.cs
+        startLine: 28
+      syntax:
+        content:
+          CSharp: Step3 = 3
+          VB: Step3 = 3
+        return:
+          type: CTRX.CDetaperCycle.State
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: CTRX.CDetaperCycle.State.Step4
+      commentId: F:CTRX.CDetaperCycle.State.Step4
+      language: CSharp
+      name:
+        CSharp: Step4
+        VB: Step4
+      nameWithType:
+        CSharp: CDetaperCycle.State.Step4
+        VB: CDetaperCycle.State.Step4
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.State.Step4
+        VB: CTRX.CDetaperCycle.State.Step4
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: Step4
+        path: CDetaper.cs
+        startLine: 28
+      syntax:
+        content:
+          CSharp: Step4 = 4
+          VB: Step4 = 4
+        return:
+          type: CTRX.CDetaperCycle.State
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: CTRX.CDetaperCycle.State.Step5
+      commentId: F:CTRX.CDetaperCycle.State.Step5
+      language: CSharp
+      name:
+        CSharp: Step5
+        VB: Step5
+      nameWithType:
+        CSharp: CDetaperCycle.State.Step5
+        VB: CDetaperCycle.State.Step5
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.State.Step5
+        VB: CTRX.CDetaperCycle.State.Step5
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: Step5
+        path: CDetaper.cs
+        startLine: 28
+      syntax:
+        content:
+          CSharp: Step5 = 5
+          VB: Step5 = 5
+        return:
+          type: CTRX.CDetaperCycle.State
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+  - id: CTRX.CDetaperCycle.Trigger
+    commentId: T:CTRX.CDetaperCycle.Trigger
+    language: CSharp
+    name:
+      CSharp: CDetaperCycle.Trigger
+      VB: CDetaperCycle.Trigger
+    nameWithType:
+      CSharp: CDetaperCycle.Trigger
+      VB: CDetaperCycle.Trigger
+    qualifiedName:
+      CSharp: CTRX.CDetaperCycle.Trigger
+      VB: CTRX.CDetaperCycle.Trigger
+    type: Enum
+    assemblies:
+    - CTRX
+    namespace: CTRX
+    source:
+      remote:
+        path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+      id: Trigger
+      path: CDetaper.cs
+      startLine: 29
+    syntax:
+      content:
+        CSharp: public enum Trigger
+        VB: Public Enum Trigger
+    modifiers:
+      CSharp:
+      - public
+      - enum
+      VB:
+      - Public
+      - Enum
+    items:
+    - id: CTRX.CDetaperCycle.Trigger.Tr0
+      commentId: F:CTRX.CDetaperCycle.Trigger.Tr0
+      language: CSharp
+      name:
+        CSharp: Tr0
+        VB: Tr0
+      nameWithType:
+        CSharp: CDetaperCycle.Trigger.Tr0
+        VB: CDetaperCycle.Trigger.Tr0
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.Trigger.Tr0
+        VB: CTRX.CDetaperCycle.Trigger.Tr0
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: Tr0
+        path: CDetaper.cs
+        startLine: 29
+      syntax:
+        content:
+          CSharp: Tr0 = 0
+          VB: Tr0 = 0
+        return:
+          type: CTRX.CDetaperCycle.Trigger
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: CTRX.CDetaperCycle.Trigger.Tr1
+      commentId: F:CTRX.CDetaperCycle.Trigger.Tr1
+      language: CSharp
+      name:
+        CSharp: Tr1
+        VB: Tr1
+      nameWithType:
+        CSharp: CDetaperCycle.Trigger.Tr1
+        VB: CDetaperCycle.Trigger.Tr1
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.Trigger.Tr1
+        VB: CTRX.CDetaperCycle.Trigger.Tr1
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: Tr1
+        path: CDetaper.cs
+        startLine: 29
+      syntax:
+        content:
+          CSharp: Tr1 = 1
+          VB: Tr1 = 1
+        return:
+          type: CTRX.CDetaperCycle.Trigger
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: CTRX.CDetaperCycle.Trigger.Tr2
+      commentId: F:CTRX.CDetaperCycle.Trigger.Tr2
+      language: CSharp
+      name:
+        CSharp: Tr2
+        VB: Tr2
+      nameWithType:
+        CSharp: CDetaperCycle.Trigger.Tr2
+        VB: CDetaperCycle.Trigger.Tr2
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.Trigger.Tr2
+        VB: CTRX.CDetaperCycle.Trigger.Tr2
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: Tr2
+        path: CDetaper.cs
+        startLine: 29
+      syntax:
+        content:
+          CSharp: Tr2 = 2
+          VB: Tr2 = 2
+        return:
+          type: CTRX.CDetaperCycle.Trigger
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: CTRX.CDetaperCycle.Trigger.Tr3
+      commentId: F:CTRX.CDetaperCycle.Trigger.Tr3
+      language: CSharp
+      name:
+        CSharp: Tr3
+        VB: Tr3
+      nameWithType:
+        CSharp: CDetaperCycle.Trigger.Tr3
+        VB: CDetaperCycle.Trigger.Tr3
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.Trigger.Tr3
+        VB: CTRX.CDetaperCycle.Trigger.Tr3
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: Tr3
+        path: CDetaper.cs
+        startLine: 29
+      syntax:
+        content:
+          CSharp: Tr3 = 3
+          VB: Tr3 = 3
+        return:
+          type: CTRX.CDetaperCycle.Trigger
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: CTRX.CDetaperCycle.Trigger.Tr4
+      commentId: F:CTRX.CDetaperCycle.Trigger.Tr4
+      language: CSharp
+      name:
+        CSharp: Tr4
+        VB: Tr4
+      nameWithType:
+        CSharp: CDetaperCycle.Trigger.Tr4
+        VB: CDetaperCycle.Trigger.Tr4
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.Trigger.Tr4
+        VB: CTRX.CDetaperCycle.Trigger.Tr4
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: Tr4
+        path: CDetaper.cs
+        startLine: 29
+      syntax:
+        content:
+          CSharp: Tr4 = 4
+          VB: Tr4 = 4
+        return:
+          type: CTRX.CDetaperCycle.Trigger
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: CTRX.CDetaperCycle.Trigger.Tr5
+      commentId: F:CTRX.CDetaperCycle.Trigger.Tr5
+      language: CSharp
+      name:
+        CSharp: Tr5
+        VB: Tr5
+      nameWithType:
+        CSharp: CDetaperCycle.Trigger.Tr5
+        VB: CDetaperCycle.Trigger.Tr5
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.Trigger.Tr5
+        VB: CTRX.CDetaperCycle.Trigger.Tr5
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: Tr5
+        path: CDetaper.cs
+        startLine: 29
+      syntax:
+        content:
+          CSharp: Tr5 = 5
+          VB: Tr5 = 5
+        return:
+          type: CTRX.CDetaperCycle.Trigger
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: CTRX.CDetaperCycle.Trigger.Tr6
+      commentId: F:CTRX.CDetaperCycle.Trigger.Tr6
+      language: CSharp
+      name:
+        CSharp: Tr6
+        VB: Tr6
+      nameWithType:
+        CSharp: CDetaperCycle.Trigger.Tr6
+        VB: CDetaperCycle.Trigger.Tr6
+      qualifiedName:
+        CSharp: CTRX.CDetaperCycle.Trigger.Tr6
+        VB: CTRX.CDetaperCycle.Trigger.Tr6
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+        id: Tr6
+        path: CDetaper.cs
+        startLine: 29
+      syntax:
+        content:
+          CSharp: Tr6 = 6
+          VB: Tr6 = 6
+        return:
+          type: CTRX.CDetaperCycle.Trigger
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+  - id: CTRX.CPoste
+    commentId: T:CTRX.CPoste
+    language: CSharp
+    name:
+      CSharp: CPoste
+      VB: CPoste
+    nameWithType:
+      CSharp: CPoste
+      VB: CPoste
+    qualifiedName:
+      CSharp: CTRX.CPoste
+      VB: CTRX.CPoste
+    type: Class
+    assemblies:
+    - CTRX
+    namespace: CTRX
+    source:
+      remote:
+        path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CPoste.cs
+      id: CPoste
+      path: CPoste.cs
+      startLine: 7
+    syntax:
+      content:
+        CSharp: public class CPoste
+        VB: Public Class CPoste
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items: []
+  - id: CTRX.CTaper
+    commentId: T:CTRX.CTaper
+    language: CSharp
+    name:
+      CSharp: CTaper
+      VB: CTaper
+    nameWithType:
+      CSharp: CTaper
+      VB: CTaper
+    qualifiedName:
+      CSharp: CTRX.CTaper
+      VB: CTRX.CTaper
+    type: Class
+    assemblies:
+    - CTRX
+    namespace: CTRX
+    source:
+      remote:
+        path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+      id: CTaper
+      path: CTaper.cs
+      startLine: 11
+    syntax:
+      content:
+        CSharp: 'public class CTaper : CPoste'
+        VB: >-
+          Public Class CTaper
+
+              Inherits CPoste
+    inheritance:
+    - System.Object
+    - CTRX.CPoste
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: CTRX.CTaper.#ctor
+      commentId: M:CTRX.CTaper.#ctor
+      language: CSharp
+      name:
+        CSharp: CTaper()
+        VB: CTaper()
+      nameWithType:
+        CSharp: CTaper.CTaper()
+        VB: CTaper.CTaper()
+      qualifiedName:
+        CSharp: CTRX.CTaper.CTaper()
+        VB: CTRX.CTaper.CTaper()
+      type: Constructor
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: .ctor
+        path: CTaper.cs
+        startLine: 15
+      syntax:
+        content:
+          CSharp: public CTaper()
+          VB: Public Sub New
+      overload: CTRX.CTaper.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: CTRX.CTaper.#ctor(CTRX.CTaperCycle)
+      commentId: M:CTRX.CTaper.#ctor(CTRX.CTaperCycle)
+      language: CSharp
+      name:
+        CSharp: CTaper(CTaperCycle)
+        VB: CTaper(CTaperCycle)
+      nameWithType:
+        CSharp: CTaper.CTaper(CTaperCycle)
+        VB: CTaper.CTaper(CTaperCycle)
+      qualifiedName:
+        CSharp: CTRX.CTaper.CTaper(CTRX.CTaperCycle)
+        VB: CTRX.CTaper.CTaper(CTRX.CTaperCycle)
+      type: Constructor
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: .ctor
+        path: CTaper.cs
+        startLine: 20
+      syntax:
+        content:
+          CSharp: public CTaper(CTaperCycle taperCycle)
+          VB: Public Sub New(taperCycle As CTaperCycle)
+        parameters:
+        - id: taperCycle
+          type: CTRX.CTaperCycle
+      overload: CTRX.CTaper.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: CTRX.CTaperCycle
+    commentId: T:CTRX.CTaperCycle
+    language: CSharp
+    name:
+      CSharp: CTaperCycle
+      VB: CTaperCycle
+    nameWithType:
+      CSharp: CTaperCycle
+      VB: CTaperCycle
+    qualifiedName:
+      CSharp: CTRX.CTaperCycle
+      VB: CTRX.CTaperCycle
+    type: Class
+    assemblies:
+    - CTRX
+    namespace: CTRX
+    source:
+      remote:
+        path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+      id: CTaperCycle
+      path: CTaper.cs
+      startLine: 26
+    syntax:
+      content:
+        CSharp: 'public class CTaperCycle : CCycleStatus'
+        VB: >-
+          Public Class CTaperCycle
+
+              Inherits CCycleStatus
+    inheritance:
+    - System.Object
+    - CTRX.CCycleStatus
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: CTRX.CTaperCycle.DateStartCycle
+      commentId: P:CTRX.CTaperCycle.DateStartCycle
+      language: CSharp
+      name:
+        CSharp: DateStartCycle
+        VB: DateStartCycle
+      nameWithType:
+        CSharp: CTaperCycle.DateStartCycle
+        VB: CTaperCycle.DateStartCycle
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.DateStartCycle
+        VB: CTRX.CTaperCycle.DateStartCycle
+      type: Property
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: DateStartCycle
+        path: CTaper.cs
+        startLine: 41
+      syntax:
+        content:
+          CSharp: public DateTime DateStartCycle { get; set; }
+          VB: Public Property DateStartCycle As Date
+        parameters: []
+        return:
+          type: System.DateTime
+      overload: CTRX.CTaperCycle.DateStartCycle*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: CTRX.CTaperCycle.DateEndCycle
+      commentId: P:CTRX.CTaperCycle.DateEndCycle
+      language: CSharp
+      name:
+        CSharp: DateEndCycle
+        VB: DateEndCycle
+      nameWithType:
+        CSharp: CTaperCycle.DateEndCycle
+        VB: CTaperCycle.DateEndCycle
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.DateEndCycle
+        VB: CTRX.CTaperCycle.DateEndCycle
+      type: Property
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: DateEndCycle
+        path: CTaper.cs
+        startLine: 42
+      syntax:
+        content:
+          CSharp: public DateTime DateEndCycle { get; set; }
+          VB: Public Property DateEndCycle As Date
+        parameters: []
+        return:
+          type: System.DateTime
+      overload: CTRX.CTaperCycle.DateEndCycle*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: CTRX.CTaperCycle.DateEndStep
+      commentId: P:CTRX.CTaperCycle.DateEndStep
+      language: CSharp
+      name:
+        CSharp: DateEndStep
+        VB: DateEndStep
+      nameWithType:
+        CSharp: CTaperCycle.DateEndStep
+        VB: CTaperCycle.DateEndStep
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.DateEndStep
+        VB: CTRX.CTaperCycle.DateEndStep
+      type: Property
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: DateEndStep
+        path: CTaper.cs
+        startLine: 43
+      syntax:
+        content:
+          CSharp: public DateTime DateEndStep { get; set; }
+          VB: Public Property DateEndStep As Date
+        parameters: []
+        return:
+          type: System.DateTime
+      overload: CTRX.CTaperCycle.DateEndStep*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: CTRX.CTaperCycle.DateStartStep
+      commentId: P:CTRX.CTaperCycle.DateStartStep
+      language: CSharp
+      name:
+        CSharp: DateStartStep
+        VB: DateStartStep
+      nameWithType:
+        CSharp: CTaperCycle.DateStartStep
+        VB: CTaperCycle.DateStartStep
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.DateStartStep
+        VB: CTRX.CTaperCycle.DateStartStep
+      type: Property
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: DateStartStep
+        path: CTaper.cs
+        startLine: 44
+      syntax:
+        content:
+          CSharp: public DateTime DateStartStep { get; set; }
+          VB: Public Property DateStartStep As Date
+        parameters: []
+        return:
+          type: System.DateTime
+      overload: CTRX.CTaperCycle.DateStartStep*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: CTRX.CTaperCycle.ProcessArmed
+      commentId: E:CTRX.CTaperCycle.ProcessArmed
+      language: CSharp
+      name:
+        CSharp: ProcessArmed
+        VB: ProcessArmed
+      nameWithType:
+        CSharp: CTaperCycle.ProcessArmed
+        VB: CTaperCycle.ProcessArmed
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.ProcessArmed
+        VB: CTRX.CTaperCycle.ProcessArmed
+      type: Event
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: ProcessArmed
+        path: CTaper.cs
+        startLine: 46
+      syntax:
+        content:
+          CSharp: public event EventHandler ProcessArmed
+          VB: Public Event ProcessArmed As EventHandler
+        return:
+          type: System.EventHandler
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: CTRX.CTaperCycle.ProcessCompleted
+      commentId: E:CTRX.CTaperCycle.ProcessCompleted
+      language: CSharp
+      name:
+        CSharp: ProcessCompleted
+        VB: ProcessCompleted
+      nameWithType:
+        CSharp: CTaperCycle.ProcessCompleted
+        VB: CTaperCycle.ProcessCompleted
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.ProcessCompleted
+        VB: CTRX.CTaperCycle.ProcessCompleted
+      type: Event
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: ProcessCompleted
+        path: CTaper.cs
+        startLine: 47
+      syntax:
+        content:
+          CSharp: public event EventHandler ProcessCompleted
+          VB: Public Event ProcessCompleted As EventHandler
+        return:
+          type: System.EventHandler
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: CTRX.CTaperCycle.ProcessStarted
+      commentId: E:CTRX.CTaperCycle.ProcessStarted
+      language: CSharp
+      name:
+        CSharp: ProcessStarted
+        VB: ProcessStarted
+      nameWithType:
+        CSharp: CTaperCycle.ProcessStarted
+        VB: CTaperCycle.ProcessStarted
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.ProcessStarted
+        VB: CTRX.CTaperCycle.ProcessStarted
+      type: Event
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: ProcessStarted
+        path: CTaper.cs
+        startLine: 48
+      syntax:
+        content:
+          CSharp: public event EventHandler ProcessStarted
+          VB: Public Event ProcessStarted As EventHandler
+        return:
+          type: System.EventHandler
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: CTRX.CTaperCycle.ProcessError
+      commentId: E:CTRX.CTaperCycle.ProcessError
+      language: CSharp
+      name:
+        CSharp: ProcessError
+        VB: ProcessError
+      nameWithType:
+        CSharp: CTaperCycle.ProcessError
+        VB: CTaperCycle.ProcessError
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.ProcessError
+        VB: CTRX.CTaperCycle.ProcessError
+      type: Event
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: ProcessError
+        path: CTaper.cs
+        startLine: 49
+      syntax:
+        content:
+          CSharp: public event EventHandler ProcessError
+          VB: Public Event ProcessError As EventHandler
+        return:
+          type: System.EventHandler
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: CTRX.CTaperCycle.#ctor(CTRX.CTaperCycle.State)
+      commentId: M:CTRX.CTaperCycle.#ctor(CTRX.CTaperCycle.State)
+      language: CSharp
+      name:
+        CSharp: CTaperCycle(CTaperCycle.State)
+        VB: CTaperCycle(CTaperCycle.State)
+      nameWithType:
+        CSharp: CTaperCycle.CTaperCycle(CTaperCycle.State)
+        VB: CTaperCycle.CTaperCycle(CTaperCycle.State)
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.CTaperCycle(CTRX.CTaperCycle.State)
+        VB: CTRX.CTaperCycle.CTaperCycle(CTRX.CTaperCycle.State)
+      type: Constructor
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: .ctor
+        path: CTaper.cs
+        startLine: 51
+      syntax:
+        content:
+          CSharp: public CTaperCycle(CTaperCycle.State state)
+          VB: Public Sub New(state As CTaperCycle.State)
+        parameters:
+        - id: state
+          type: CTRX.CTaperCycle.State
+      overload: CTRX.CTaperCycle.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: CTRX.CTaperCycle.OnProcessArmed(System.EventArgs)
+      commentId: M:CTRX.CTaperCycle.OnProcessArmed(System.EventArgs)
+      language: CSharp
+      name:
+        CSharp: OnProcessArmed(EventArgs)
+        VB: OnProcessArmed(EventArgs)
+      nameWithType:
+        CSharp: CTaperCycle.OnProcessArmed(EventArgs)
+        VB: CTaperCycle.OnProcessArmed(EventArgs)
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.OnProcessArmed(System.EventArgs)
+        VB: CTRX.CTaperCycle.OnProcessArmed(System.EventArgs)
+      type: Method
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: OnProcessArmed
+        path: CTaper.cs
+        startLine: 171
+      syntax:
+        content:
+          CSharp: protected virtual void OnProcessArmed(EventArgs e)
+          VB: Protected Overridable Sub OnProcessArmed(e As EventArgs)
+        parameters:
+        - id: e
+          type: System.EventArgs
+      overload: CTRX.CTaperCycle.OnProcessArmed*
+      modifiers:
+        CSharp:
+        - protected
+        - virtual
+        VB:
+        - Protected
+        - Overridable
+    - id: CTRX.CTaperCycle.OnProcessStarted(System.EventArgs)
+      commentId: M:CTRX.CTaperCycle.OnProcessStarted(System.EventArgs)
+      language: CSharp
+      name:
+        CSharp: OnProcessStarted(EventArgs)
+        VB: OnProcessStarted(EventArgs)
+      nameWithType:
+        CSharp: CTaperCycle.OnProcessStarted(EventArgs)
+        VB: CTaperCycle.OnProcessStarted(EventArgs)
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.OnProcessStarted(System.EventArgs)
+        VB: CTRX.CTaperCycle.OnProcessStarted(System.EventArgs)
+      type: Method
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: OnProcessStarted
+        path: CTaper.cs
+        startLine: 175
+      syntax:
+        content:
+          CSharp: protected virtual void OnProcessStarted(EventArgs e)
+          VB: Protected Overridable Sub OnProcessStarted(e As EventArgs)
+        parameters:
+        - id: e
+          type: System.EventArgs
+      overload: CTRX.CTaperCycle.OnProcessStarted*
+      modifiers:
+        CSharp:
+        - protected
+        - virtual
+        VB:
+        - Protected
+        - Overridable
+    - id: CTRX.CTaperCycle.OnProcessCompleted(System.EventArgs)
+      commentId: M:CTRX.CTaperCycle.OnProcessCompleted(System.EventArgs)
+      language: CSharp
+      name:
+        CSharp: OnProcessCompleted(EventArgs)
+        VB: OnProcessCompleted(EventArgs)
+      nameWithType:
+        CSharp: CTaperCycle.OnProcessCompleted(EventArgs)
+        VB: CTaperCycle.OnProcessCompleted(EventArgs)
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.OnProcessCompleted(System.EventArgs)
+        VB: CTRX.CTaperCycle.OnProcessCompleted(System.EventArgs)
+      type: Method
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: OnProcessCompleted
+        path: CTaper.cs
+        startLine: 187
+      syntax:
+        content:
+          CSharp: protected virtual void OnProcessCompleted(EventArgs e)
+          VB: Protected Overridable Sub OnProcessCompleted(e As EventArgs)
+        parameters:
+        - id: e
+          type: System.EventArgs
+      overload: CTRX.CTaperCycle.OnProcessCompleted*
+      modifiers:
+        CSharp:
+        - protected
+        - virtual
+        VB:
+        - Protected
+        - Overridable
+  - id: CTRX.CTaperCycle.State
+    commentId: T:CTRX.CTaperCycle.State
+    language: CSharp
+    name:
+      CSharp: CTaperCycle.State
+      VB: CTaperCycle.State
+    nameWithType:
+      CSharp: CTaperCycle.State
+      VB: CTaperCycle.State
+    qualifiedName:
+      CSharp: CTRX.CTaperCycle.State
+      VB: CTRX.CTaperCycle.State
+    type: Enum
+    assemblies:
+    - CTRX
+    namespace: CTRX
+    source:
+      remote:
+        path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+      id: State
+      path: CTaper.cs
+      startLine: 28
+    syntax:
+      content:
+        CSharp: public enum State
+        VB: Public Enum State
+    modifiers:
+      CSharp:
+      - public
+      - enum
+      VB:
+      - Public
+      - Enum
+    items:
+    - id: CTRX.CTaperCycle.State.Step0
+      commentId: F:CTRX.CTaperCycle.State.Step0
+      language: CSharp
+      name:
+        CSharp: Step0
+        VB: Step0
+      nameWithType:
+        CSharp: CTaperCycle.State.Step0
+        VB: CTaperCycle.State.Step0
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.State.Step0
+        VB: CTRX.CTaperCycle.State.Step0
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: Step0
+        path: CTaper.cs
+        startLine: 28
+      syntax:
+        content:
+          CSharp: Step0 = 0
+          VB: Step0 = 0
+        return:
+          type: CTRX.CTaperCycle.State
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: CTRX.CTaperCycle.State.Step1
+      commentId: F:CTRX.CTaperCycle.State.Step1
+      language: CSharp
+      name:
+        CSharp: Step1
+        VB: Step1
+      nameWithType:
+        CSharp: CTaperCycle.State.Step1
+        VB: CTaperCycle.State.Step1
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.State.Step1
+        VB: CTRX.CTaperCycle.State.Step1
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: Step1
+        path: CTaper.cs
+        startLine: 28
+      syntax:
+        content:
+          CSharp: Step1 = 1
+          VB: Step1 = 1
+        return:
+          type: CTRX.CTaperCycle.State
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: CTRX.CTaperCycle.State.Step2
+      commentId: F:CTRX.CTaperCycle.State.Step2
+      language: CSharp
+      name:
+        CSharp: Step2
+        VB: Step2
+      nameWithType:
+        CSharp: CTaperCycle.State.Step2
+        VB: CTaperCycle.State.Step2
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.State.Step2
+        VB: CTRX.CTaperCycle.State.Step2
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: Step2
+        path: CTaper.cs
+        startLine: 28
+      syntax:
+        content:
+          CSharp: Step2 = 2
+          VB: Step2 = 2
+        return:
+          type: CTRX.CTaperCycle.State
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: CTRX.CTaperCycle.State.Step3
+      commentId: F:CTRX.CTaperCycle.State.Step3
+      language: CSharp
+      name:
+        CSharp: Step3
+        VB: Step3
+      nameWithType:
+        CSharp: CTaperCycle.State.Step3
+        VB: CTaperCycle.State.Step3
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.State.Step3
+        VB: CTRX.CTaperCycle.State.Step3
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: Step3
+        path: CTaper.cs
+        startLine: 28
+      syntax:
+        content:
+          CSharp: Step3 = 3
+          VB: Step3 = 3
+        return:
+          type: CTRX.CTaperCycle.State
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: CTRX.CTaperCycle.State.Step4
+      commentId: F:CTRX.CTaperCycle.State.Step4
+      language: CSharp
+      name:
+        CSharp: Step4
+        VB: Step4
+      nameWithType:
+        CSharp: CTaperCycle.State.Step4
+        VB: CTaperCycle.State.Step4
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.State.Step4
+        VB: CTRX.CTaperCycle.State.Step4
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: Step4
+        path: CTaper.cs
+        startLine: 28
+      syntax:
+        content:
+          CSharp: Step4 = 4
+          VB: Step4 = 4
+        return:
+          type: CTRX.CTaperCycle.State
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: CTRX.CTaperCycle.State.Step5
+      commentId: F:CTRX.CTaperCycle.State.Step5
+      language: CSharp
+      name:
+        CSharp: Step5
+        VB: Step5
+      nameWithType:
+        CSharp: CTaperCycle.State.Step5
+        VB: CTaperCycle.State.Step5
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.State.Step5
+        VB: CTRX.CTaperCycle.State.Step5
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: Step5
+        path: CTaper.cs
+        startLine: 28
+      syntax:
+        content:
+          CSharp: Step5 = 5
+          VB: Step5 = 5
+        return:
+          type: CTRX.CTaperCycle.State
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+  - id: CTRX.CTaperCycle.Trigger
+    commentId: T:CTRX.CTaperCycle.Trigger
+    language: CSharp
+    name:
+      CSharp: CTaperCycle.Trigger
+      VB: CTaperCycle.Trigger
+    nameWithType:
+      CSharp: CTaperCycle.Trigger
+      VB: CTaperCycle.Trigger
+    qualifiedName:
+      CSharp: CTRX.CTaperCycle.Trigger
+      VB: CTRX.CTaperCycle.Trigger
+    type: Enum
+    assemblies:
+    - CTRX
+    namespace: CTRX
+    source:
+      remote:
+        path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+      id: Trigger
+      path: CTaper.cs
+      startLine: 29
+    syntax:
+      content:
+        CSharp: public enum Trigger
+        VB: Public Enum Trigger
+    modifiers:
+      CSharp:
+      - public
+      - enum
+      VB:
+      - Public
+      - Enum
+    items:
+    - id: CTRX.CTaperCycle.Trigger.Tr0
+      commentId: F:CTRX.CTaperCycle.Trigger.Tr0
+      language: CSharp
+      name:
+        CSharp: Tr0
+        VB: Tr0
+      nameWithType:
+        CSharp: CTaperCycle.Trigger.Tr0
+        VB: CTaperCycle.Trigger.Tr0
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.Trigger.Tr0
+        VB: CTRX.CTaperCycle.Trigger.Tr0
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: Tr0
+        path: CTaper.cs
+        startLine: 29
+      syntax:
+        content:
+          CSharp: Tr0 = 0
+          VB: Tr0 = 0
+        return:
+          type: CTRX.CTaperCycle.Trigger
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: CTRX.CTaperCycle.Trigger.Tr1
+      commentId: F:CTRX.CTaperCycle.Trigger.Tr1
+      language: CSharp
+      name:
+        CSharp: Tr1
+        VB: Tr1
+      nameWithType:
+        CSharp: CTaperCycle.Trigger.Tr1
+        VB: CTaperCycle.Trigger.Tr1
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.Trigger.Tr1
+        VB: CTRX.CTaperCycle.Trigger.Tr1
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: Tr1
+        path: CTaper.cs
+        startLine: 29
+      syntax:
+        content:
+          CSharp: Tr1 = 1
+          VB: Tr1 = 1
+        return:
+          type: CTRX.CTaperCycle.Trigger
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: CTRX.CTaperCycle.Trigger.Tr2
+      commentId: F:CTRX.CTaperCycle.Trigger.Tr2
+      language: CSharp
+      name:
+        CSharp: Tr2
+        VB: Tr2
+      nameWithType:
+        CSharp: CTaperCycle.Trigger.Tr2
+        VB: CTaperCycle.Trigger.Tr2
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.Trigger.Tr2
+        VB: CTRX.CTaperCycle.Trigger.Tr2
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: Tr2
+        path: CTaper.cs
+        startLine: 29
+      syntax:
+        content:
+          CSharp: Tr2 = 2
+          VB: Tr2 = 2
+        return:
+          type: CTRX.CTaperCycle.Trigger
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: CTRX.CTaperCycle.Trigger.Tr3
+      commentId: F:CTRX.CTaperCycle.Trigger.Tr3
+      language: CSharp
+      name:
+        CSharp: Tr3
+        VB: Tr3
+      nameWithType:
+        CSharp: CTaperCycle.Trigger.Tr3
+        VB: CTaperCycle.Trigger.Tr3
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.Trigger.Tr3
+        VB: CTRX.CTaperCycle.Trigger.Tr3
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: Tr3
+        path: CTaper.cs
+        startLine: 29
+      syntax:
+        content:
+          CSharp: Tr3 = 3
+          VB: Tr3 = 3
+        return:
+          type: CTRX.CTaperCycle.Trigger
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: CTRX.CTaperCycle.Trigger.Tr4
+      commentId: F:CTRX.CTaperCycle.Trigger.Tr4
+      language: CSharp
+      name:
+        CSharp: Tr4
+        VB: Tr4
+      nameWithType:
+        CSharp: CTaperCycle.Trigger.Tr4
+        VB: CTaperCycle.Trigger.Tr4
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.Trigger.Tr4
+        VB: CTRX.CTaperCycle.Trigger.Tr4
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: Tr4
+        path: CTaper.cs
+        startLine: 29
+      syntax:
+        content:
+          CSharp: Tr4 = 4
+          VB: Tr4 = 4
+        return:
+          type: CTRX.CTaperCycle.Trigger
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: CTRX.CTaperCycle.Trigger.Tr5
+      commentId: F:CTRX.CTaperCycle.Trigger.Tr5
+      language: CSharp
+      name:
+        CSharp: Tr5
+        VB: Tr5
+      nameWithType:
+        CSharp: CTaperCycle.Trigger.Tr5
+        VB: CTaperCycle.Trigger.Tr5
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.Trigger.Tr5
+        VB: CTRX.CTaperCycle.Trigger.Tr5
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: Tr5
+        path: CTaper.cs
+        startLine: 29
+      syntax:
+        content:
+          CSharp: Tr5 = 5
+          VB: Tr5 = 5
+        return:
+          type: CTRX.CTaperCycle.Trigger
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: CTRX.CTaperCycle.Trigger.Tr6
+      commentId: F:CTRX.CTaperCycle.Trigger.Tr6
+      language: CSharp
+      name:
+        CSharp: Tr6
+        VB: Tr6
+      nameWithType:
+        CSharp: CTaperCycle.Trigger.Tr6
+        VB: CTaperCycle.Trigger.Tr6
+      qualifiedName:
+        CSharp: CTRX.CTaperCycle.Trigger.Tr6
+        VB: CTRX.CTaperCycle.Trigger.Tr6
+      type: Field
+      assemblies:
+      - CTRX
+      namespace: CTRX
+      source:
+        remote:
+          path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTaper.cs
+        id: Tr6
+        path: CTaper.cs
+        startLine: 29
+      syntax:
+        content:
+          CSharp: Tr6 = 6
+          VB: Tr6 = 6
+        return:
+          type: CTRX.CTaperCycle.Trigger
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+- id: CTrxHandler
+  commentId: N:CTrxHandler
+  language: CSharp
+  name:
+    CSharp: CTrxHandler
+    VB: CTrxHandler
+  nameWithType:
+    CSharp: CTrxHandler
+    VB: CTrxHandler
+  qualifiedName:
+    CSharp: CTrxHandler
+    VB: CTrxHandler
+  type: Namespace
+  assemblies:
+  - CTRX
+  modifiers: {}
+  items:
+  - id: CTrxHandler.CTrxHandler
+    commentId: T:CTrxHandler.CTrxHandler
+    language: CSharp
+    name:
+      CSharp: CTrxHandler
+      VB: CTrxHandler
+    nameWithType:
+      CSharp: CTrxHandler
+      VB: CTrxHandler
+    qualifiedName:
+      CSharp: CTrxHandler.CTrxHandler
+      VB: CTrxHandler.CTrxHandler
+    type: Class
+    assemblies:
+    - CTRX
+    namespace: CTrxHandler
+    source:
+      remote:
+        path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CTrxHandler.cs
+      id: CTrxHandler
+      path: CTrxHandler.cs
+      startLine: 8
+    syntax:
+      content:
+        CSharp: public class CTrxHandler
+        VB: Public Class CTrxHandler
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items: []
+references:
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Object:
+    name:
+      CSharp:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      VB:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Object
+  System.Object.ToString:
+    name:
+      CSharp:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ToString
+  System.Object.Equals(System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object)
+  System.Object.Equals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object,System.Object)
+  System.Object.ReferenceEquals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  System.Object.GetHashCode:
+    name:
+      CSharp:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetHashCode
+  System.Object.GetType:
+    name:
+      CSharp:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetType
+  System.Object.MemberwiseClone:
+    name:
+      CSharp:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.MemberwiseClone
+  CTRX.CCycleStatus:
+    name:
+      CSharp:
+      - id: CTRX.CCycleStatus
+        name: CCycleStatus
+        nameWithType: CCycleStatus
+        qualifiedName: CTRX.CCycleStatus
+      VB:
+      - id: CTRX.CCycleStatus
+        name: CCycleStatus
+        nameWithType: CCycleStatus
+        qualifiedName: CTRX.CCycleStatus
+    isDefinition: true
+    parent: CTRX
+    commentId: T:CTRX.CCycleStatus
+  CTRX:
+    name:
+      CSharp:
+      - name: CTRX
+        nameWithType: CTRX
+        qualifiedName: CTRX
+      VB:
+      - name: CTRX
+        nameWithType: CTRX
+        qualifiedName: CTRX
+    isDefinition: true
+    commentId: N:CTRX
+  CTRX.CPoste:
+    name:
+      CSharp:
+      - id: CTRX.CPoste
+        name: CPoste
+        nameWithType: CPoste
+        qualifiedName: CTRX.CPoste
+      VB:
+      - id: CTRX.CPoste
+        name: CPoste
+        nameWithType: CPoste
+        qualifiedName: CTRX.CPoste
+    isDefinition: true
+    parent: CTRX
+    commentId: T:CTRX.CPoste
+  CTRX.CDetaperCycle:
+    name:
+      CSharp:
+      - id: CTRX.CDetaperCycle
+        name: CDetaperCycle
+        nameWithType: CDetaperCycle
+        qualifiedName: CTRX.CDetaperCycle
+      VB:
+      - id: CTRX.CDetaperCycle
+        name: CDetaperCycle
+        nameWithType: CDetaperCycle
+        qualifiedName: CTRX.CDetaperCycle
+    isDefinition: true
+    parent: CTRX
+    commentId: T:CTRX.CDetaperCycle
+  CTRX.CDetaper.#ctor*:
+    name:
+      CSharp:
+      - id: CTRX.CDetaper.#ctor*
+        name: CDetaper
+        nameWithType: CDetaper.CDetaper
+        qualifiedName: CTRX.CDetaper.CDetaper
+      VB:
+      - id: CTRX.CDetaper.#ctor*
+        name: CDetaper
+        nameWithType: CDetaper.CDetaper
+        qualifiedName: CTRX.CDetaper.CDetaper
+    isDefinition: true
+    commentId: Overload:CTRX.CDetaper.#ctor
+  CTRX.CDetaper:
+    name:
+      CSharp:
+      - id: CTRX.CDetaper
+        name: CDetaper
+        nameWithType: CDetaper
+        qualifiedName: CTRX.CDetaper
+      VB:
+      - id: CTRX.CDetaper
+        name: CDetaper
+        nameWithType: CDetaper
+        qualifiedName: CTRX.CDetaper
+    isDefinition: true
+    commentId: T:CTRX.CDetaper
+  System.DateTime:
+    name:
+      CSharp:
+      - id: System.DateTime
+        name: DateTime
+        nameWithType: DateTime
+        qualifiedName: System.DateTime
+        isExternal: true
+      VB:
+      - id: System.DateTime
+        name: DateTime
+        nameWithType: DateTime
+        qualifiedName: System.DateTime
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.DateTime
+  CTRX.CDetaperCycle.DateStartCycle*:
+    name:
+      CSharp:
+      - id: CTRX.CDetaperCycle.DateStartCycle*
+        name: DateStartCycle
+        nameWithType: CDetaperCycle.DateStartCycle
+        qualifiedName: CTRX.CDetaperCycle.DateStartCycle
+      VB:
+      - id: CTRX.CDetaperCycle.DateStartCycle*
+        name: DateStartCycle
+        nameWithType: CDetaperCycle.DateStartCycle
+        qualifiedName: CTRX.CDetaperCycle.DateStartCycle
+    isDefinition: true
+    commentId: Overload:CTRX.CDetaperCycle.DateStartCycle
+  CTRX.CDetaperCycle.DateEndCycle*:
+    name:
+      CSharp:
+      - id: CTRX.CDetaperCycle.DateEndCycle*
+        name: DateEndCycle
+        nameWithType: CDetaperCycle.DateEndCycle
+        qualifiedName: CTRX.CDetaperCycle.DateEndCycle
+      VB:
+      - id: CTRX.CDetaperCycle.DateEndCycle*
+        name: DateEndCycle
+        nameWithType: CDetaperCycle.DateEndCycle
+        qualifiedName: CTRX.CDetaperCycle.DateEndCycle
+    isDefinition: true
+    commentId: Overload:CTRX.CDetaperCycle.DateEndCycle
+  CTRX.CDetaperCycle.DateEndStep*:
+    name:
+      CSharp:
+      - id: CTRX.CDetaperCycle.DateEndStep*
+        name: DateEndStep
+        nameWithType: CDetaperCycle.DateEndStep
+        qualifiedName: CTRX.CDetaperCycle.DateEndStep
+      VB:
+      - id: CTRX.CDetaperCycle.DateEndStep*
+        name: DateEndStep
+        nameWithType: CDetaperCycle.DateEndStep
+        qualifiedName: CTRX.CDetaperCycle.DateEndStep
+    isDefinition: true
+    commentId: Overload:CTRX.CDetaperCycle.DateEndStep
+  CTRX.CDetaperCycle.DateStartStep*:
+    name:
+      CSharp:
+      - id: CTRX.CDetaperCycle.DateStartStep*
+        name: DateStartStep
+        nameWithType: CDetaperCycle.DateStartStep
+        qualifiedName: CTRX.CDetaperCycle.DateStartStep
+      VB:
+      - id: CTRX.CDetaperCycle.DateStartStep*
+        name: DateStartStep
+        nameWithType: CDetaperCycle.DateStartStep
+        qualifiedName: CTRX.CDetaperCycle.DateStartStep
+    isDefinition: true
+    commentId: Overload:CTRX.CDetaperCycle.DateStartStep
+  System.EventHandler:
+    name:
+      CSharp:
+      - id: System.EventHandler
+        name: EventHandler
+        nameWithType: EventHandler
+        qualifiedName: System.EventHandler
+        isExternal: true
+      VB:
+      - id: System.EventHandler
+        name: EventHandler
+        nameWithType: EventHandler
+        qualifiedName: System.EventHandler
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.EventHandler
+  CTRX.CDetaperCycle.State:
+    name:
+      CSharp:
+      - id: CTRX.CDetaperCycle.State
+        name: CDetaperCycle.State
+        nameWithType: CDetaperCycle.State
+        qualifiedName: CTRX.CDetaperCycle.State
+      VB:
+      - id: CTRX.CDetaperCycle.State
+        name: CDetaperCycle.State
+        nameWithType: CDetaperCycle.State
+        qualifiedName: CTRX.CDetaperCycle.State
+    isDefinition: true
+    parent: CTRX
+    commentId: T:CTRX.CDetaperCycle.State
+  CTRX.CDetaperCycle.#ctor*:
+    name:
+      CSharp:
+      - id: CTRX.CDetaperCycle.#ctor*
+        name: CDetaperCycle
+        nameWithType: CDetaperCycle.CDetaperCycle
+        qualifiedName: CTRX.CDetaperCycle.CDetaperCycle
+      VB:
+      - id: CTRX.CDetaperCycle.#ctor*
+        name: CDetaperCycle
+        nameWithType: CDetaperCycle.CDetaperCycle
+        qualifiedName: CTRX.CDetaperCycle.CDetaperCycle
+    isDefinition: true
+    commentId: Overload:CTRX.CDetaperCycle.#ctor
+  System.EventArgs:
+    name:
+      CSharp:
+      - id: System.EventArgs
+        name: EventArgs
+        nameWithType: EventArgs
+        qualifiedName: System.EventArgs
+        isExternal: true
+      VB:
+      - id: System.EventArgs
+        name: EventArgs
+        nameWithType: EventArgs
+        qualifiedName: System.EventArgs
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.EventArgs
+  CTRX.CDetaperCycle.OnProcessArmed*:
+    name:
+      CSharp:
+      - id: CTRX.CDetaperCycle.OnProcessArmed*
+        name: OnProcessArmed
+        nameWithType: CDetaperCycle.OnProcessArmed
+        qualifiedName: CTRX.CDetaperCycle.OnProcessArmed
+      VB:
+      - id: CTRX.CDetaperCycle.OnProcessArmed*
+        name: OnProcessArmed
+        nameWithType: CDetaperCycle.OnProcessArmed
+        qualifiedName: CTRX.CDetaperCycle.OnProcessArmed
+    isDefinition: true
+    commentId: Overload:CTRX.CDetaperCycle.OnProcessArmed
+  CTRX.CDetaperCycle.OnProcessStarted*:
+    name:
+      CSharp:
+      - id: CTRX.CDetaperCycle.OnProcessStarted*
+        name: OnProcessStarted
+        nameWithType: CDetaperCycle.OnProcessStarted
+        qualifiedName: CTRX.CDetaperCycle.OnProcessStarted
+      VB:
+      - id: CTRX.CDetaperCycle.OnProcessStarted*
+        name: OnProcessStarted
+        nameWithType: CDetaperCycle.OnProcessStarted
+        qualifiedName: CTRX.CDetaperCycle.OnProcessStarted
+    isDefinition: true
+    commentId: Overload:CTRX.CDetaperCycle.OnProcessStarted
+  CTRX.CDetaperCycle.OnProcessCompleted*:
+    name:
+      CSharp:
+      - id: CTRX.CDetaperCycle.OnProcessCompleted*
+        name: OnProcessCompleted
+        nameWithType: CDetaperCycle.OnProcessCompleted
+        qualifiedName: CTRX.CDetaperCycle.OnProcessCompleted
+      VB:
+      - id: CTRX.CDetaperCycle.OnProcessCompleted*
+        name: OnProcessCompleted
+        nameWithType: CDetaperCycle.OnProcessCompleted
+        qualifiedName: CTRX.CDetaperCycle.OnProcessCompleted
+    isDefinition: true
+    commentId: Overload:CTRX.CDetaperCycle.OnProcessCompleted
+  CTRX.CDetaperCycle.Trigger:
+    name:
+      CSharp:
+      - id: CTRX.CDetaperCycle.Trigger
+        name: CDetaperCycle.Trigger
+        nameWithType: CDetaperCycle.Trigger
+        qualifiedName: CTRX.CDetaperCycle.Trigger
+      VB:
+      - id: CTRX.CDetaperCycle.Trigger
+        name: CDetaperCycle.Trigger
+        nameWithType: CDetaperCycle.Trigger
+        qualifiedName: CTRX.CDetaperCycle.Trigger
+    isDefinition: true
+    parent: CTRX
+    commentId: T:CTRX.CDetaperCycle.Trigger
+  CTRX.CTaper.#ctor*:
+    name:
+      CSharp:
+      - id: CTRX.CTaper.#ctor*
+        name: CTaper
+        nameWithType: CTaper.CTaper
+        qualifiedName: CTRX.CTaper.CTaper
+      VB:
+      - id: CTRX.CTaper.#ctor*
+        name: CTaper
+        nameWithType: CTaper.CTaper
+        qualifiedName: CTRX.CTaper.CTaper
+    isDefinition: true
+    commentId: Overload:CTRX.CTaper.#ctor
+  CTRX.CTaperCycle:
+    name:
+      CSharp:
+      - id: CTRX.CTaperCycle
+        name: CTaperCycle
+        nameWithType: CTaperCycle
+        qualifiedName: CTRX.CTaperCycle
+      VB:
+      - id: CTRX.CTaperCycle
+        name: CTaperCycle
+        nameWithType: CTaperCycle
+        qualifiedName: CTRX.CTaperCycle
+    isDefinition: true
+    parent: CTRX
+    commentId: T:CTRX.CTaperCycle
+  CTRX.CTaper:
+    name:
+      CSharp:
+      - id: CTRX.CTaper
+        name: CTaper
+        nameWithType: CTaper
+        qualifiedName: CTRX.CTaper
+      VB:
+      - id: CTRX.CTaper
+        name: CTaper
+        nameWithType: CTaper
+        qualifiedName: CTRX.CTaper
+    isDefinition: true
+    commentId: T:CTRX.CTaper
+  CTRX.CTaperCycle.DateStartCycle*:
+    name:
+      CSharp:
+      - id: CTRX.CTaperCycle.DateStartCycle*
+        name: DateStartCycle
+        nameWithType: CTaperCycle.DateStartCycle
+        qualifiedName: CTRX.CTaperCycle.DateStartCycle
+      VB:
+      - id: CTRX.CTaperCycle.DateStartCycle*
+        name: DateStartCycle
+        nameWithType: CTaperCycle.DateStartCycle
+        qualifiedName: CTRX.CTaperCycle.DateStartCycle
+    isDefinition: true
+    commentId: Overload:CTRX.CTaperCycle.DateStartCycle
+  CTRX.CTaperCycle.DateEndCycle*:
+    name:
+      CSharp:
+      - id: CTRX.CTaperCycle.DateEndCycle*
+        name: DateEndCycle
+        nameWithType: CTaperCycle.DateEndCycle
+        qualifiedName: CTRX.CTaperCycle.DateEndCycle
+      VB:
+      - id: CTRX.CTaperCycle.DateEndCycle*
+        name: DateEndCycle
+        nameWithType: CTaperCycle.DateEndCycle
+        qualifiedName: CTRX.CTaperCycle.DateEndCycle
+    isDefinition: true
+    commentId: Overload:CTRX.CTaperCycle.DateEndCycle
+  CTRX.CTaperCycle.DateEndStep*:
+    name:
+      CSharp:
+      - id: CTRX.CTaperCycle.DateEndStep*
+        name: DateEndStep
+        nameWithType: CTaperCycle.DateEndStep
+        qualifiedName: CTRX.CTaperCycle.DateEndStep
+      VB:
+      - id: CTRX.CTaperCycle.DateEndStep*
+        name: DateEndStep
+        nameWithType: CTaperCycle.DateEndStep
+        qualifiedName: CTRX.CTaperCycle.DateEndStep
+    isDefinition: true
+    commentId: Overload:CTRX.CTaperCycle.DateEndStep
+  CTRX.CTaperCycle.DateStartStep*:
+    name:
+      CSharp:
+      - id: CTRX.CTaperCycle.DateStartStep*
+        name: DateStartStep
+        nameWithType: CTaperCycle.DateStartStep
+        qualifiedName: CTRX.CTaperCycle.DateStartStep
+      VB:
+      - id: CTRX.CTaperCycle.DateStartStep*
+        name: DateStartStep
+        nameWithType: CTaperCycle.DateStartStep
+        qualifiedName: CTRX.CTaperCycle.DateStartStep
+    isDefinition: true
+    commentId: Overload:CTRX.CTaperCycle.DateStartStep
+  CTRX.CTaperCycle.State:
+    name:
+      CSharp:
+      - id: CTRX.CTaperCycle.State
+        name: CTaperCycle.State
+        nameWithType: CTaperCycle.State
+        qualifiedName: CTRX.CTaperCycle.State
+      VB:
+      - id: CTRX.CTaperCycle.State
+        name: CTaperCycle.State
+        nameWithType: CTaperCycle.State
+        qualifiedName: CTRX.CTaperCycle.State
+    isDefinition: true
+    parent: CTRX
+    commentId: T:CTRX.CTaperCycle.State
+  CTRX.CTaperCycle.#ctor*:
+    name:
+      CSharp:
+      - id: CTRX.CTaperCycle.#ctor*
+        name: CTaperCycle
+        nameWithType: CTaperCycle.CTaperCycle
+        qualifiedName: CTRX.CTaperCycle.CTaperCycle
+      VB:
+      - id: CTRX.CTaperCycle.#ctor*
+        name: CTaperCycle
+        nameWithType: CTaperCycle.CTaperCycle
+        qualifiedName: CTRX.CTaperCycle.CTaperCycle
+    isDefinition: true
+    commentId: Overload:CTRX.CTaperCycle.#ctor
+  CTRX.CTaperCycle.OnProcessArmed*:
+    name:
+      CSharp:
+      - id: CTRX.CTaperCycle.OnProcessArmed*
+        name: OnProcessArmed
+        nameWithType: CTaperCycle.OnProcessArmed
+        qualifiedName: CTRX.CTaperCycle.OnProcessArmed
+      VB:
+      - id: CTRX.CTaperCycle.OnProcessArmed*
+        name: OnProcessArmed
+        nameWithType: CTaperCycle.OnProcessArmed
+        qualifiedName: CTRX.CTaperCycle.OnProcessArmed
+    isDefinition: true
+    commentId: Overload:CTRX.CTaperCycle.OnProcessArmed
+  CTRX.CTaperCycle.OnProcessStarted*:
+    name:
+      CSharp:
+      - id: CTRX.CTaperCycle.OnProcessStarted*
+        name: OnProcessStarted
+        nameWithType: CTaperCycle.OnProcessStarted
+        qualifiedName: CTRX.CTaperCycle.OnProcessStarted
+      VB:
+      - id: CTRX.CTaperCycle.OnProcessStarted*
+        name: OnProcessStarted
+        nameWithType: CTaperCycle.OnProcessStarted
+        qualifiedName: CTRX.CTaperCycle.OnProcessStarted
+    isDefinition: true
+    commentId: Overload:CTRX.CTaperCycle.OnProcessStarted
+  CTRX.CTaperCycle.OnProcessCompleted*:
+    name:
+      CSharp:
+      - id: CTRX.CTaperCycle.OnProcessCompleted*
+        name: OnProcessCompleted
+        nameWithType: CTaperCycle.OnProcessCompleted
+        qualifiedName: CTRX.CTaperCycle.OnProcessCompleted
+      VB:
+      - id: CTRX.CTaperCycle.OnProcessCompleted*
+        name: OnProcessCompleted
+        nameWithType: CTaperCycle.OnProcessCompleted
+        qualifiedName: CTRX.CTaperCycle.OnProcessCompleted
+    isDefinition: true
+    commentId: Overload:CTRX.CTaperCycle.OnProcessCompleted
+  CTRX.CTaperCycle.Trigger:
+    name:
+      CSharp:
+      - id: CTRX.CTaperCycle.Trigger
+        name: CTaperCycle.Trigger
+        nameWithType: CTaperCycle.Trigger
+        qualifiedName: CTRX.CTaperCycle.Trigger
+      VB:
+      - id: CTRX.CTaperCycle.Trigger
+        name: CTaperCycle.Trigger
+        nameWithType: CTaperCycle.Trigger
+        qualifiedName: CTRX.CTaperCycle.Trigger
+    isDefinition: true
+    parent: CTRX
+    commentId: T:CTRX.CTaperCycle.Trigger
+  CTrxHandler.CTrxHandler:
+    name:
+      CSharp:
+      - id: CTrxHandler.CTrxHandler
+        name: CTrxHandler
+        nameWithType: CTrxHandler
+        qualifiedName: CTrxHandler.CTrxHandler
+      VB:
+      - id: CTrxHandler.CTrxHandler
+        name: CTrxHandler
+        nameWithType: CTrxHandler
+        qualifiedName: CTrxHandler.CTrxHandler
+    isDefinition: true
+    commentId: T:CTrxHandler.CTrxHandler
+  CTrxHandler:
+    name:
+      CSharp:
+      - name: CTrxHandler
+        nameWithType: CTrxHandler
+        qualifiedName: CTrxHandler
+      VB:
+      - name: CTrxHandler
+        nameWithType: CTrxHandler
+        qualifiedName: CTrxHandler
+    isDefinition: true
+    commentId: N:CTrxHandler

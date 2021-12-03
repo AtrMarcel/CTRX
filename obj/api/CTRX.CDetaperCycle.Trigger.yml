@@ -1,0 +1,261 @@
+### YamlMime:ManagedReference
+items:
+- uid: CTRX.CDetaperCycle.Trigger
+  commentId: T:CTRX.CDetaperCycle.Trigger
+  id: CDetaperCycle.Trigger
+  parent: CTRX
+  children:
+  - CTRX.CDetaperCycle.Trigger.Tr0
+  - CTRX.CDetaperCycle.Trigger.Tr1
+  - CTRX.CDetaperCycle.Trigger.Tr2
+  - CTRX.CDetaperCycle.Trigger.Tr3
+  - CTRX.CDetaperCycle.Trigger.Tr4
+  - CTRX.CDetaperCycle.Trigger.Tr5
+  - CTRX.CDetaperCycle.Trigger.Tr6
+  langs:
+  - csharp
+  - vb
+  name: CDetaperCycle.Trigger
+  nameWithType: CDetaperCycle.Trigger
+  fullName: CTRX.CDetaperCycle.Trigger
+  type: Enum
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: Trigger
+    path: CDetaper.cs
+    startLine: 29
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: public enum Trigger
+    content.vb: Public Enum Trigger
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CTRX.CDetaperCycle.Trigger.Tr0
+  commentId: F:CTRX.CDetaperCycle.Trigger.Tr0
+  id: Tr0
+  parent: CTRX.CDetaperCycle.Trigger
+  langs:
+  - csharp
+  - vb
+  name: Tr0
+  nameWithType: CDetaperCycle.Trigger.Tr0
+  fullName: CTRX.CDetaperCycle.Trigger.Tr0
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: Tr0
+    path: CDetaper.cs
+    startLine: 29
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Tr0 = 0
+    return:
+      type: CTRX.CDetaperCycle.Trigger
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CTRX.CDetaperCycle.Trigger.Tr1
+  commentId: F:CTRX.CDetaperCycle.Trigger.Tr1
+  id: Tr1
+  parent: CTRX.CDetaperCycle.Trigger
+  langs:
+  - csharp
+  - vb
+  name: Tr1
+  nameWithType: CDetaperCycle.Trigger.Tr1
+  fullName: CTRX.CDetaperCycle.Trigger.Tr1
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: Tr1
+    path: CDetaper.cs
+    startLine: 29
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Tr1 = 1
+    return:
+      type: CTRX.CDetaperCycle.Trigger
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CTRX.CDetaperCycle.Trigger.Tr2
+  commentId: F:CTRX.CDetaperCycle.Trigger.Tr2
+  id: Tr2
+  parent: CTRX.CDetaperCycle.Trigger
+  langs:
+  - csharp
+  - vb
+  name: Tr2
+  nameWithType: CDetaperCycle.Trigger.Tr2
+  fullName: CTRX.CDetaperCycle.Trigger.Tr2
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: Tr2
+    path: CDetaper.cs
+    startLine: 29
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Tr2 = 2
+    return:
+      type: CTRX.CDetaperCycle.Trigger
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CTRX.CDetaperCycle.Trigger.Tr3
+  commentId: F:CTRX.CDetaperCycle.Trigger.Tr3
+  id: Tr3
+  parent: CTRX.CDetaperCycle.Trigger
+  langs:
+  - csharp
+  - vb
+  name: Tr3
+  nameWithType: CDetaperCycle.Trigger.Tr3
+  fullName: CTRX.CDetaperCycle.Trigger.Tr3
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: Tr3
+    path: CDetaper.cs
+    startLine: 29
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Tr3 = 3
+    return:
+      type: CTRX.CDetaperCycle.Trigger
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CTRX.CDetaperCycle.Trigger.Tr4
+  commentId: F:CTRX.CDetaperCycle.Trigger.Tr4
+  id: Tr4
+  parent: CTRX.CDetaperCycle.Trigger
+  langs:
+  - csharp
+  - vb
+  name: Tr4
+  nameWithType: CDetaperCycle.Trigger.Tr4
+  fullName: CTRX.CDetaperCycle.Trigger.Tr4
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: Tr4
+    path: CDetaper.cs
+    startLine: 29
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Tr4 = 4
+    return:
+      type: CTRX.CDetaperCycle.Trigger
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CTRX.CDetaperCycle.Trigger.Tr5
+  commentId: F:CTRX.CDetaperCycle.Trigger.Tr5
+  id: Tr5
+  parent: CTRX.CDetaperCycle.Trigger
+  langs:
+  - csharp
+  - vb
+  name: Tr5
+  nameWithType: CDetaperCycle.Trigger.Tr5
+  fullName: CTRX.CDetaperCycle.Trigger.Tr5
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: Tr5
+    path: CDetaper.cs
+    startLine: 29
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Tr5 = 5
+    return:
+      type: CTRX.CDetaperCycle.Trigger
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CTRX.CDetaperCycle.Trigger.Tr6
+  commentId: F:CTRX.CDetaperCycle.Trigger.Tr6
+  id: Tr6
+  parent: CTRX.CDetaperCycle.Trigger
+  langs:
+  - csharp
+  - vb
+  name: Tr6
+  nameWithType: CDetaperCycle.Trigger.Tr6
+  fullName: CTRX.CDetaperCycle.Trigger.Tr6
+  type: Field
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: Tr6
+    path: CDetaper.cs
+    startLine: 29
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: Tr6 = 6
+    return:
+      type: CTRX.CDetaperCycle.Trigger
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CTRX
+  commentId: N:CTRX
+  name: CTRX
+  nameWithType: CTRX
+  fullName: CTRX
+- uid: CTRX.CDetaperCycle.Trigger
+  commentId: T:CTRX.CDetaperCycle.Trigger
+  parent: CTRX
+  name: CDetaperCycle.Trigger
+  nameWithType: CDetaperCycle.Trigger
+  fullName: CTRX.CDetaperCycle.Trigger

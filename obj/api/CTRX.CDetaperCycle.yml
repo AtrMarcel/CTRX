@@ -1,0 +1,806 @@
+### YamlMime:ManagedReference
+items:
+- uid: CTRX.CDetaperCycle
+  commentId: T:CTRX.CDetaperCycle
+  id: CDetaperCycle
+  parent: CTRX
+  children:
+  - CTRX.CDetaperCycle.#ctor(CTRX.CDetaperCycle.State)
+  - CTRX.CDetaperCycle.DateEndCycle
+  - CTRX.CDetaperCycle.DateEndStep
+  - CTRX.CDetaperCycle.DateStartCycle
+  - CTRX.CDetaperCycle.DateStartStep
+  - CTRX.CDetaperCycle.OnProcessArmed(System.EventArgs)
+  - CTRX.CDetaperCycle.OnProcessCompleted(System.EventArgs)
+  - CTRX.CDetaperCycle.OnProcessStarted(System.EventArgs)
+  - CTRX.CDetaperCycle.ProcessArmed
+  - CTRX.CDetaperCycle.ProcessCompleted
+  - CTRX.CDetaperCycle.ProcessError
+  - CTRX.CDetaperCycle.ProcessStarted
+  langs:
+  - csharp
+  - vb
+  name: CDetaperCycle
+  nameWithType: CDetaperCycle
+  fullName: CTRX.CDetaperCycle
+  type: Class
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: CDetaperCycle
+    path: CDetaper.cs
+    startLine: 26
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: 'public class CDetaperCycle : CCycleStatus'
+    content.vb: >-
+      Public Class CDetaperCycle
+          Inherits CCycleStatus
+  inheritance:
+  - System.Object
+  - CTRX.CCycleStatus
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CTRX.CDetaperCycle.DateStartCycle
+  commentId: P:CTRX.CDetaperCycle.DateStartCycle
+  id: DateStartCycle
+  parent: CTRX.CDetaperCycle
+  langs:
+  - csharp
+  - vb
+  name: DateStartCycle
+  nameWithType: CDetaperCycle.DateStartCycle
+  fullName: CTRX.CDetaperCycle.DateStartCycle
+  type: Property
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: DateStartCycle
+    path: CDetaper.cs
+    startLine: 41
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: public DateTime DateStartCycle { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property DateStartCycle As Date
+  overload: CTRX.CDetaperCycle.DateStartCycle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CTRX.CDetaperCycle.DateEndCycle
+  commentId: P:CTRX.CDetaperCycle.DateEndCycle
+  id: DateEndCycle
+  parent: CTRX.CDetaperCycle
+  langs:
+  - csharp
+  - vb
+  name: DateEndCycle
+  nameWithType: CDetaperCycle.DateEndCycle
+  fullName: CTRX.CDetaperCycle.DateEndCycle
+  type: Property
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: DateEndCycle
+    path: CDetaper.cs
+    startLine: 42
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: public DateTime DateEndCycle { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property DateEndCycle As Date
+  overload: CTRX.CDetaperCycle.DateEndCycle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CTRX.CDetaperCycle.DateEndStep
+  commentId: P:CTRX.CDetaperCycle.DateEndStep
+  id: DateEndStep
+  parent: CTRX.CDetaperCycle
+  langs:
+  - csharp
+  - vb
+  name: DateEndStep
+  nameWithType: CDetaperCycle.DateEndStep
+  fullName: CTRX.CDetaperCycle.DateEndStep
+  type: Property
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: DateEndStep
+    path: CDetaper.cs
+    startLine: 43
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: public DateTime DateEndStep { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property DateEndStep As Date
+  overload: CTRX.CDetaperCycle.DateEndStep*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CTRX.CDetaperCycle.DateStartStep
+  commentId: P:CTRX.CDetaperCycle.DateStartStep
+  id: DateStartStep
+  parent: CTRX.CDetaperCycle
+  langs:
+  - csharp
+  - vb
+  name: DateStartStep
+  nameWithType: CDetaperCycle.DateStartStep
+  fullName: CTRX.CDetaperCycle.DateStartStep
+  type: Property
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: DateStartStep
+    path: CDetaper.cs
+    startLine: 44
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: public DateTime DateStartStep { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property DateStartStep As Date
+  overload: CTRX.CDetaperCycle.DateStartStep*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CTRX.CDetaperCycle.ProcessArmed
+  commentId: E:CTRX.CDetaperCycle.ProcessArmed
+  id: ProcessArmed
+  parent: CTRX.CDetaperCycle
+  langs:
+  - csharp
+  - vb
+  name: ProcessArmed
+  nameWithType: CDetaperCycle.ProcessArmed
+  fullName: CTRX.CDetaperCycle.ProcessArmed
+  type: Event
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: ProcessArmed
+    path: CDetaper.cs
+    startLine: 46
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: public event EventHandler ProcessArmed
+    return:
+      type: System.EventHandler
+    content.vb: Public Event ProcessArmed As EventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CTRX.CDetaperCycle.ProcessCompleted
+  commentId: E:CTRX.CDetaperCycle.ProcessCompleted
+  id: ProcessCompleted
+  parent: CTRX.CDetaperCycle
+  langs:
+  - csharp
+  - vb
+  name: ProcessCompleted
+  nameWithType: CDetaperCycle.ProcessCompleted
+  fullName: CTRX.CDetaperCycle.ProcessCompleted
+  type: Event
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: ProcessCompleted
+    path: CDetaper.cs
+    startLine: 47
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: public event EventHandler ProcessCompleted
+    return:
+      type: System.EventHandler
+    content.vb: Public Event ProcessCompleted As EventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CTRX.CDetaperCycle.ProcessStarted
+  commentId: E:CTRX.CDetaperCycle.ProcessStarted
+  id: ProcessStarted
+  parent: CTRX.CDetaperCycle
+  langs:
+  - csharp
+  - vb
+  name: ProcessStarted
+  nameWithType: CDetaperCycle.ProcessStarted
+  fullName: CTRX.CDetaperCycle.ProcessStarted
+  type: Event
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: ProcessStarted
+    path: CDetaper.cs
+    startLine: 48
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: public event EventHandler ProcessStarted
+    return:
+      type: System.EventHandler
+    content.vb: Public Event ProcessStarted As EventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CTRX.CDetaperCycle.ProcessError
+  commentId: E:CTRX.CDetaperCycle.ProcessError
+  id: ProcessError
+  parent: CTRX.CDetaperCycle
+  langs:
+  - csharp
+  - vb
+  name: ProcessError
+  nameWithType: CDetaperCycle.ProcessError
+  fullName: CTRX.CDetaperCycle.ProcessError
+  type: Event
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: ProcessError
+    path: CDetaper.cs
+    startLine: 49
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: public event EventHandler ProcessError
+    return:
+      type: System.EventHandler
+    content.vb: Public Event ProcessError As EventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CTRX.CDetaperCycle.#ctor(CTRX.CDetaperCycle.State)
+  commentId: M:CTRX.CDetaperCycle.#ctor(CTRX.CDetaperCycle.State)
+  id: '#ctor(CTRX.CDetaperCycle.State)'
+  parent: CTRX.CDetaperCycle
+  langs:
+  - csharp
+  - vb
+  name: CDetaperCycle(CDetaperCycle.State)
+  nameWithType: CDetaperCycle.CDetaperCycle(CDetaperCycle.State)
+  fullName: CTRX.CDetaperCycle.CDetaperCycle(CTRX.CDetaperCycle.State)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: .ctor
+    path: CDetaper.cs
+    startLine: 51
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: public CDetaperCycle(CDetaperCycle.State state)
+    parameters:
+    - id: state
+      type: CTRX.CDetaperCycle.State
+    content.vb: Public Sub New(state As CDetaperCycle.State)
+  overload: CTRX.CDetaperCycle.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CTRX.CDetaperCycle.OnProcessArmed(System.EventArgs)
+  commentId: M:CTRX.CDetaperCycle.OnProcessArmed(System.EventArgs)
+  id: OnProcessArmed(System.EventArgs)
+  parent: CTRX.CDetaperCycle
+  langs:
+  - csharp
+  - vb
+  name: OnProcessArmed(EventArgs)
+  nameWithType: CDetaperCycle.OnProcessArmed(EventArgs)
+  fullName: CTRX.CDetaperCycle.OnProcessArmed(System.EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: OnProcessArmed
+    path: CDetaper.cs
+    startLine: 171
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: protected virtual void OnProcessArmed(EventArgs e)
+    parameters:
+    - id: e
+      type: System.EventArgs
+    content.vb: Protected Overridable Sub OnProcessArmed(e As EventArgs)
+  overload: CTRX.CDetaperCycle.OnProcessArmed*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: CTRX.CDetaperCycle.OnProcessStarted(System.EventArgs)
+  commentId: M:CTRX.CDetaperCycle.OnProcessStarted(System.EventArgs)
+  id: OnProcessStarted(System.EventArgs)
+  parent: CTRX.CDetaperCycle
+  langs:
+  - csharp
+  - vb
+  name: OnProcessStarted(EventArgs)
+  nameWithType: CDetaperCycle.OnProcessStarted(EventArgs)
+  fullName: CTRX.CDetaperCycle.OnProcessStarted(System.EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: OnProcessStarted
+    path: CDetaper.cs
+    startLine: 175
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: protected virtual void OnProcessStarted(EventArgs e)
+    parameters:
+    - id: e
+      type: System.EventArgs
+    content.vb: Protected Overridable Sub OnProcessStarted(e As EventArgs)
+  overload: CTRX.CDetaperCycle.OnProcessStarted*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: CTRX.CDetaperCycle.OnProcessCompleted(System.EventArgs)
+  commentId: M:CTRX.CDetaperCycle.OnProcessCompleted(System.EventArgs)
+  id: OnProcessCompleted(System.EventArgs)
+  parent: CTRX.CDetaperCycle
+  langs:
+  - csharp
+  - vb
+  name: OnProcessCompleted(EventArgs)
+  nameWithType: CDetaperCycle.OnProcessCompleted(EventArgs)
+  fullName: CTRX.CDetaperCycle.OnProcessCompleted(System.EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/Marcel SOULIERS/source/repos/CTRX/CDetaper.cs
+    id: OnProcessCompleted
+    path: CDetaper.cs
+    startLine: 186
+  assemblies:
+  - CTRX
+  namespace: CTRX
+  syntax:
+    content: protected virtual void OnProcessCompleted(EventArgs e)
+    parameters:
+    - id: e
+      type: System.EventArgs
+    content.vb: Protected Overridable Sub OnProcessCompleted(e As EventArgs)
+  overload: CTRX.CDetaperCycle.OnProcessCompleted*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+references:
+- uid: CTRX
+  commentId: N:CTRX
+  name: CTRX
+  nameWithType: CTRX
+  fullName: CTRX
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CTRX.CCycleStatus
+  commentId: T:CTRX.CCycleStatus
+  parent: CTRX
+  name: CCycleStatus
+  nameWithType: CCycleStatus
+  fullName: CTRX.CCycleStatus
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CTRX.CDetaperCycle.DateStartCycle*
+  commentId: Overload:CTRX.CDetaperCycle.DateStartCycle
+  name: DateStartCycle
+  nameWithType: CDetaperCycle.DateStartCycle
+  fullName: CTRX.CDetaperCycle.DateStartCycle
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: CTRX.CDetaperCycle.DateEndCycle*
+  commentId: Overload:CTRX.CDetaperCycle.DateEndCycle
+  name: DateEndCycle
+  nameWithType: CDetaperCycle.DateEndCycle
+  fullName: CTRX.CDetaperCycle.DateEndCycle
+- uid: CTRX.CDetaperCycle.DateEndStep*
+  commentId: Overload:CTRX.CDetaperCycle.DateEndStep
+  name: DateEndStep
+  nameWithType: CDetaperCycle.DateEndStep
+  fullName: CTRX.CDetaperCycle.DateEndStep
+- uid: CTRX.CDetaperCycle.DateStartStep*
+  commentId: Overload:CTRX.CDetaperCycle.DateStartStep
+  name: DateStartStep
+  nameWithType: CDetaperCycle.DateStartStep
+  fullName: CTRX.CDetaperCycle.DateStartStep
+- uid: System.EventHandler
+  commentId: T:System.EventHandler
+  parent: System
+  isExternal: true
+  name: EventHandler
+  nameWithType: EventHandler
+  fullName: System.EventHandler
+- uid: CTRX.CDetaperCycle.#ctor*
+  commentId: Overload:CTRX.CDetaperCycle.#ctor
+  name: CDetaperCycle
+  nameWithType: CDetaperCycle.CDetaperCycle
+  fullName: CTRX.CDetaperCycle.CDetaperCycle
+- uid: CTRX.CDetaperCycle.State
+  commentId: T:CTRX.CDetaperCycle.State
+  parent: CTRX
+  name: CDetaperCycle.State
+  nameWithType: CDetaperCycle.State
+  fullName: CTRX.CDetaperCycle.State
+- uid: CTRX.CDetaperCycle.OnProcessArmed*
+  commentId: Overload:CTRX.CDetaperCycle.OnProcessArmed
+  name: OnProcessArmed
+  nameWithType: CDetaperCycle.OnProcessArmed
+  fullName: CTRX.CDetaperCycle.OnProcessArmed
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: CTRX.CDetaperCycle.OnProcessStarted*
+  commentId: Overload:CTRX.CDetaperCycle.OnProcessStarted
+  name: OnProcessStarted
+  nameWithType: CDetaperCycle.OnProcessStarted
+  fullName: CTRX.CDetaperCycle.OnProcessStarted
+- uid: CTRX.CDetaperCycle.OnProcessCompleted*
+  commentId: Overload:CTRX.CDetaperCycle.OnProcessCompleted
+  name: OnProcessCompleted
+  nameWithType: CDetaperCycle.OnProcessCompleted
+  fullName: CTRX.CDetaperCycle.OnProcessCompleted
