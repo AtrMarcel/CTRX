@@ -6,6 +6,7 @@ using System.Diagnostics;
 using Newtonsoft.Json;
 using System.Linq;
 using System.Timers;
+using System.Threading;
 
 namespace CTRX
 {
@@ -25,7 +26,7 @@ namespace CTRX
         public CDetaper()
         {
             Name = "Detaper";
-            Id = 1000;
+            Id = 0x2000;
             Nb_Advance = 3;
             Cpt_Advance = 0;
             Cpt_GblAdvance = 0;
@@ -48,7 +49,7 @@ namespace CTRX
         public CDetaper(CDetaperCycle detaperCycle)
         {
             Name = "Detaper";
-            Id = 1000;
+            Id = 0x2000;
             Nb_Advance = 3;
             Cpt_Advance = 0;
             Cpt_GblAdvance = 0;
@@ -103,12 +104,28 @@ namespace CTRX
         /// </summary>
         public override void Run(Object source, ElapsedEventArgs e)
         {
-
+            if (!Option.MajSortieByEvt)
+            {
+                //Thread.Sleep((int)Option.SliceTime / 10);
+                if (MajSorties() == 0)
+                {
+                    if (Option.StepByStep)
+                    {
+                        Command.ReqStart = false;
+                        TickCycle.AutoReset = false;
+                        TickCycle.Stop();
+                    }
+                }
+                else
+                {
+                    Status.CodeError = Id + 3;
+                }
+            }
             if (MajEntrees() == 0)
             {
                 if (MajCycle() == 0)
                 {
-
+                   
                 }
                 else
                 {
@@ -119,11 +136,10 @@ namespace CTRX
             {
                 Status.CodeError = Id + 1;
             }
-            // Trace 
-            if (Option.NivTrace > 5)
-            {
-                MajRapport(": Cycle in running " + DetaperCycle.ToString(), true);
-            }
+
+            
+
+          
         }
         /// <summary>
         /// Lecture des variables d'entrée
@@ -211,14 +227,28 @@ namespace CTRX
                 case 2:
                     break;
                 case 3:
-                    Cpt_Advance++;
-                    Cpt_GblAdvance++;
+                    if (Status.NbPasInStep == 0)
+                    {
+                        Cpt_Advance++;
+                        Cpt_GblAdvance++;
+                    }
                     break;
                 case 4:
                     break;
 
             }
+           
+            // Trace 
+            if (Option.NivTrace > 5)
+            {
+                string txt;
 
+                txt = DateTime.Now.ToString("HH:mm:ss.ffffff  ");
+                txt += "Detaper : Cycle in running Step n°" + DetaperCycle.GetStateDest() + " - Nb.Pas: " + Status.NbPasInStep;
+
+                Debug.WriteLine(txt);
+            }
+            Status.NbPasInStep++;
             return res; 
         }
 
@@ -349,7 +379,7 @@ namespace CTRX
                 Status.Busy = false;
             }
 
-            if (Command.ReqEnd)
+            if (Command.ReqEnd | !Option.AutoArmed)
             {
                 Command.ReqEnd = false;
                 // Timer
@@ -372,25 +402,27 @@ namespace CTRX
         }
         public void TransitionCompleted(object sender, EventArgs e)
         {
-           
-
+            Status.NbPasInStep = 0;
             // Mise à jour des sorties
-            if (MajSorties() == 0)
+            if (Option.MajSortieByEvt)
             {
-                if (Option.StepByStep)
+                if (MajSorties() == 0)
                 {
-                    Command.ReqStart = false;
-                    TickCycle.AutoReset = false;
-                    TickCycle.Stop();
+                    if (Option.StepByStep)
+                    {
+                        Command.ReqStart = false;
+                        TickCycle.AutoReset = false;
+                        TickCycle.Stop();
+                    }
                 }
+                else
+                {
+                    Status.CodeError = Id + 3;
+                }
+                
             }
-            else
-            {
-                Status.CodeError = Id + 3;
-            }
-
-            // Trace 
-            if (Option.NivTrace > 1)
+                // Trace 
+                if (Option.NivTrace > 1)
             {
                 string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:000} ms", 
                     DetaperCycle.StepDelay.Hours, 

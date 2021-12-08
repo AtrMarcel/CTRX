@@ -2,13 +2,6 @@
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="CTRX.CTrxHandler" Collapsed="true">
     <Position X="14.5" Y="4.75" Width="1.5" />
-    <NestedTypes>
-      <Enum Name="CTRX.CTrxHandler.PAGE" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>CTrxHandler.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Enum>
-    </NestedTypes>
     <InheritanceLine Type="CTRX.CPost" ManuallyRouted="true">
       <Path>
         <Point X="8" Y="3.941" />
@@ -139,7 +132,7 @@
   <Class Name="CTRX.CPostStatus" Collapsed="true">
     <Position X="5" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAkAgAABQAAAQECAAECAhAQAgAQEAAAAAAAAAAAIAI=</HashCode>
+      <HashCode>AAAkAgAABQAAAQECABECAhAQAgAQEAAAAAAAAAAAIAI=</HashCode>
       <FileName>CPostStatus.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -202,8 +195,8 @@
     <InheritanceLine Type="CTRX.CPost" ManuallyRouted="true">
       <Path>
         <Point X="8" Y="3.941" />
-        <Point X="8" Y="4.302" />
-        <Point X="7.25" Y="4.302" />
+        <Point X="8" Y="7.375" />
+        <Point X="7.25" Y="7.375" />
         <Point X="7.25" Y="7.75" />
       </Path>
     </InheritanceLine>
@@ -264,7 +257,7 @@
   <Class Name="CTRX.CPostOption" Collapsed="true">
     <Position X="3" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAEAAACAEAACgBAAAABAAAAAQAECgQABAIAAAQ=</HashCode>
+      <HashCode>AAAAAAAEAAACAEAASgBAAEABAAAAAQAECgQABAIAAAQ=</HashCode>
       <FileName>CPostStatus.cs</FileName>
     </TypeIdentifier>
   </Class>

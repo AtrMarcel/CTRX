@@ -35,9 +35,9 @@ namespace CTRX
                 Valid = false,
                 AutoArmed = false,
                 AutoStart = false,
-                
                 NivLog = 0,
                 NivTrace = 0,
+                MajSortieByEvt = false,
                 SliceTime = 100
             };
             Command = new CPostCommand
@@ -83,7 +83,7 @@ namespace CTRX
         public int MajRapport(String text, bool heure)
         {
             string txt = "";
-             if (Option.NivTrace > 0)
+            if (Option.NivTrace > 0)
             {
                 if (heure) txt = DateTime.Now.ToString("HH:mm:ss.ffffff  ");
                 txt += Name;
@@ -222,6 +222,15 @@ namespace CTRX
             Option.AutoStart = false;
 
        
+            if (Status.Ended)
+            {
+                Command.ReqEnd = false;
+                // Timer
+                TickCycle.AutoReset = false;
+                //TickCycle.Enabled = false;
+                TickCycle.Stop();
+            }
+
             // Trace 
             if (Option.NivTrace > 0)
             {
@@ -295,6 +304,7 @@ namespace CTRX
                 // Lance le timer: Post.Run() 
                 TickCycle.Interval = Option.SliceTime;
                 TickCycle.AutoReset = true;
+                TickCycle.Elapsed -= Run;
                 TickCycle.Elapsed += Run;
                 TickCycle.Start();
             }

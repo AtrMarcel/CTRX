@@ -17,6 +17,7 @@ namespace CTRX
         private bool actived;
         private bool paused;
         private bool free;
+        private uint nbPasInStep;
 
         public CPostStatus()
         {
@@ -63,6 +64,7 @@ namespace CTRX
         /// Poste disponible
         /// </summary>
         public bool Free { get => free; set => free = value; }
+        public uint NbPasInStep { get => nbPasInStep; set => nbPasInStep = value; }
     }
 
     [Serializable]
@@ -76,6 +78,7 @@ namespace CTRX
         private uint sliceTime;
         private bool simulation;
         private bool valid;
+        private bool majSortieByEvt;
 
         public bool AutoArmed { get => autoArmed; set => autoArmed = value; }
         public bool AutoStart { get => autoStart; set => autoStart = value; }
@@ -85,6 +88,7 @@ namespace CTRX
         public uint SliceTime { get => sliceTime; set => sliceTime = value; }
         public bool Simulation { get => simulation; set => simulation = value; }
         public bool Valid { get => valid; set => valid = value; }
+        public bool MajSortieByEvt { get => majSortieByEvt; set => majSortieByEvt = value; }
     }
 
     [Serializable]

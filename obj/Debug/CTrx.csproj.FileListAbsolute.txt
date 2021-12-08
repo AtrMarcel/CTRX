@@ -18,5 +18,6 @@ C:\Users\Marcel SOULIERS\source\repos\CTRX\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Marcel SOULIERS\source\repos\CTRX\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Marcel SOULIERS\source\repos\CTRX\obj\Debug\CTrx.csproj.AssemblyReference.cache
 C:\Users\Marcel SOULIERS\source\repos\CTRX\obj\Debug\CTrx.csproj.CoreCompileInputs.cache
+C:\Users\Marcel SOULIERS\source\repos\CTRX\obj\Debug\CTrx.csproj.CopyComplete
 C:\Users\Marcel SOULIERS\source\repos\CTRX\obj\Debug\CTRX.dll
 C:\Users\Marcel SOULIERS\source\repos\CTRX\obj\Debug\CTRX.pdb

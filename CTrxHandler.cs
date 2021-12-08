@@ -14,7 +14,7 @@ namespace CTRX
     {
         #region Declaration
 
-        public enum PAGE { DEMARRAGE, ATTENTE, MAINTENANCE, INITIALISATION, CHARGEMENT,
+        public enum PAGE { DEMARRAGE, ATTENTE, MAINTENANCE, INITIALISATION, PREPARATION, CHARGEMENT,
             PRODUCTION, DECHARGEMENT, DEFAUT, CONFIGURATION, ACCES, HISTORIQUE, DEBUG, SECURITE, RAPPORT}
 
         private CTrxHandlerCycle handlerCycle;
@@ -68,7 +68,7 @@ namespace CTRX
             {
                 if (MajCycle() == 0)
                 {
-
+                    
                 }
                 else
                 {
@@ -84,6 +84,7 @@ namespace CTRX
             {
                 MajRapport(": Cycle in running " + HandlerCycle.ToString(), true);
             }
+
         }
         /// <summary>
         /// Lecture des variables d'entrée
@@ -166,7 +167,7 @@ namespace CTRX
                     break;
                 case 1:
 
-                    //Nb_Advance = CalculNbAdvance();
+                   
                     break;
                 case 2:
                     break;
@@ -319,8 +320,6 @@ namespace CTRX
         }
         public void TransitionCompleted(object sender, EventArgs e)
         {
-
-
             // Mise à jour des sorties
             if (MajSorties() == 0)
             {
@@ -536,9 +535,9 @@ namespace CTRX
             var StepInit = 0;
 
             // Evenement sur l'entree de l'étape initiale: Event Armed
-            if (HandlerCycle.State == (State)StepInit) OnProcessArmed(EventArgs.Empty);
+            //if (HandlerCycle.State == (State)StepInit) OnProcessArmed(EventArgs.Empty);
             // Evenement sur l'entree de la dernière etape: Event Completed
-            if (HandlerCycle.State == (State)StepFin) OnProcessCompleted(EventArgs.Empty);
+            //if (HandlerCycle.State == (State)StepFin) OnProcessCompleted(EventArgs.Empty);
             DateEnterSrce = DateEnterDest;
             DateEnterDest = DateTime.Now.ToString("HH:mm:ss.ffffff");
             DateStartStep = DateTime.Now;
@@ -560,7 +559,7 @@ namespace CTRX
             var StepInit = 0;
 
             // Evénement sur la sortie de l'étape initiale: Event Started
-            if (HandlerCycle.State == (State)StepInit) OnProcessStarted(EventArgs.Empty);
+            //if (HandlerCycle.State == (State)StepInit) OnProcessStarted(EventArgs.Empty);
             DateExitSrce = DateTime.Now.ToString("HH:mm:ss.ffffff");
             DateEndStep = DateTime.Now;
 
