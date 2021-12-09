@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CTRX.CTrxHandler" Collapsed="true">
+    <Position X="14.5" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="CTRX.CPost" ManuallyRouted="true">
+      <Path>
+        <Point X="8" Y="3.941" />
+        <Point X="8" Y="4.227" />
+        <Point X="15.25" Y="4.227" />
+        <Point X="15.25" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEAAgIAAIAEkBIAAYAQAAAAEIAAAAAAIAAAAAAAAEII=</HashCode>
+      <FileName>CTrxHandler.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="handlerCycle" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CTRX.CPost" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <AssociationLine Name="status" Type="CTRX.CPostStatus" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.25" Y="3.443" />
+        <Point X="5.75" Y="3.443" />
+        <Point X="5.75" Y="2.562" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="option" Type="CTRX.CPostOption" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.25" Y="3.532" />
+        <Point X="3.75" Y="3.532" />
+        <Point X="3.75" Y="2.562" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="command" Type="CTRX.CPostCommand" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.25" Y="3.622" />
+        <Point X="1.75" Y="3.622" />
+        <Point X="1.75" Y="2.562" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAYggIAUASAABIAIQAEADAABAAQAAAAgIBACAAgAAII=</HashCode>
+      <FileName>CPost.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="status" />
+      <Field Name="option" />
+      <Field Name="command" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CTRX.CTaper" Collapsed="true">
+    <Position X="2.5" Y="9.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <InheritanceLine Type="CTRX.CPost" ManuallyRouted="true">
+      <Path>
+        <Point X="8" Y="3.941" />
+        <Point X="8" Y="4.236" />
+        <Point X="3.25" Y="4.236" />
+        <Point X="3.25" Y="9.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAABIAAQAAAAAAAAAAAAAAAAIAAAACAAII=</HashCode>
+      <FileName>CTaper.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="taperCycle" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CTRX.CDetaperCycle" Collapsed="true">
+    <Position X="28.25" Y="3.75" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIACASAAAAAgAEAkEgACgAAAAoBAAAAAIAAQAIIAEAE=</HashCode>
+      <FileName>CDetaper.cs</FileName>
+      <NewMemberFileName>CTaper.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTRX.CDetaper" Collapsed="true">
+    <Position X="12.5" Y="5.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="CTRX.CPost" ManuallyRouted="true">
+      <Path>
+        <Point X="8" Y="3.941" />
+        <Point X="8" Y="4.24" />
+        <Point X="13.25" Y="4.24" />
+        <Point X="13.25" Y="5.5" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="detaperCycle" Type="CTRX.CDetaperCycle" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="14" Y="5.813" />
+        <Point X="29.125" Y="5.813" />
+        <Point X="29.125" Y="4.441" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AEAIhIAAAEAABIKAQAAABBAEIAASAAIIAAAQQAAAGII=</HashCode>
+      <FileName>CDetaper.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="detaperCycle" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CTRX.CTaperCycle" Collapsed="true">
+    <Position X="39.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIASAACAAgAAAAAgACAIAAgoBAAAAAAIAAAAAAAAE=</HashCode>
+      <FileName>CTaper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTRX.CCycleStatus" Collapsed="true">
+    <Position X="34.25" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEIQEACAAkiAQAoIkMQoABCEgAgAAJAIAAiABCEIEBQ=</HashCode>
+      <FileName>CCycleStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTRX.CPostStatus" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAgAABQAAAQECABECAhAQAgAQEAAAAAAAAAAAIAI=</HashCode>
+      <FileName>CPostStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTRX.CParam&lt;T&gt;" Collapsed="true">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAIAAAAgAAAAIAAAAAAAAAQAAKAAAgAgAAAAAAQ=</HashCode>
+      <FileName>CParam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTRX.CInfo" Collapsed="true">
+    <Position X="8.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAQAAAAEAAAAAAAAQAAAAEAAAIAAAACAAAAgA=</HashCode>
+      <FileName>CInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTRX.CPickupHead" Collapsed="true">
+    <Position X="10.5" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="CTRX.CPost" ManuallyRouted="true">
+      <Path>
+        <Point X="8" Y="3.941" />
+        <Point X="8" Y="4.274" />
+        <Point X="11.25" Y="4.274" />
+        <Point X="11.25" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEAAgIAAAAAABIAAQABAAAAEIAAAAAAIAABAAAAAEII=</HashCode>
+      <FileName>CPickupHead.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTRX.CTester" Collapsed="true">
+    <Position X="8.5" Y="7" Width="1.5" />
+    <InheritanceLine Type="CTRX.CPost" ManuallyRouted="true">
+      <Path>
+        <Point X="8" Y="3.941" />
+        <Point X="8" Y="4.287" />
+        <Point X="9.25" Y="4.287" />
+        <Point X="9.25" Y="7" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="testerCycle" Type="CTRX.CTesterCycle" ManuallyRouted="true">
+      <Path>
+        <Point X="10" Y="7.346" />
+        <Point X="33.5" Y="7.346" />
+        <Point X="33.5" Y="4.747" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>gAAAgIAAAAAABIAAQAAAAAAAAAAAAAAAAAAAAIAAAII=</HashCode>
+      <FileName>CTester.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="testerCycle" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CTRX.CLaser" Collapsed="true">
+    <Position X="6.5" Y="7.75" Width="1.5" />
+    <InheritanceLine Type="CTRX.CPost" ManuallyRouted="true">
+      <Path>
+        <Point X="8" Y="3.941" />
+        <Point X="8" Y="7.375" />
+        <Point X="7.25" Y="7.375" />
+        <Point X="7.25" Y="7.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAABIAAQAAAAAAAAAAAAAAAgAAAAIAAAII=</HashCode>
+      <FileName>CLaser.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="laserCycle" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CTRX.CCamera" Collapsed="true">
+    <Position X="4.5" Y="8.5" Width="1.5" />
+    <InheritanceLine Type="CTRX.CPost" ManuallyRouted="true">
+      <Path>
+        <Point X="8" Y="3.941" />
+        <Point X="8" Y="4.257" />
+        <Point X="5.25" Y="4.257" />
+        <Point X="5.25" Y="8.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BEAAgIAAAAAABIAAQAAAAAAEIAAEAAAIAAAAAAAAEII=</HashCode>
+      <FileName>CCamera.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="cameraCycle" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CTRX.CPickupHeadCycle" Collapsed="true">
+    <Position X="30.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACASAAAAAgAEAkEgACgAAAAoBAACAAIAAgAIIAAAE=</HashCode>
+      <FileName>CPickupHead.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTRX.CTesterCycle">
+    <Position X="32.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CTester.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTRX.CLaserCycle">
+    <Position X="35" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CLaser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTRX.CCameraCycle" Collapsed="true">
+    <Position X="37.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIACASAAAAAgAEAkEgACgAAAAoBEAAAAIAAAAIIAAAE=</HashCode>
+      <FileName>CCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTRX.CPostOption" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAACAEAASgBAAEABAAAAAQAECgQABAIAAAQ=</HashCode>
+      <FileName>CPostStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTRX.CPostCommand" Collapsed="true">
+    <Position X="1" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAQAABAAAAAEAAAABAQAABAAAAAEAAAABAAA=</HashCode>
+      <FileName>CPostStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTRX.CTrxHandlerCycle" Collapsed="true">
+    <Position X="25.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACASAAAAAgAEAkMgACgAAAAoBAAAAAIAAAAIIAAAE=</HashCode>
+      <FileName>CTrxHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTRX.CHandlerRequest" Collapsed="true">
+    <Position X="16" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIQAgCCQZIwAQAEAwIAAwCCQRAwABAAAQBAgyABAAQg=</HashCode>
+      <FileName>CHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTRX.CHandlerStatus">
+    <Position X="20" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTRX.CHandlerOption">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

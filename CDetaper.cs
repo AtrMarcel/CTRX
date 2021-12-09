@@ -121,11 +121,30 @@ namespace CTRX
                     Status.CodeError = Id + 3;
                 }
             }
+            // Requete de Pause
+            /*
+            if (Status.Actived)
+            {
+                // Post.Status
+                Status.Paused = true;
+
+                // Timer
+                TickCycle.AutoReset = false;
+                TickCycle.Stop();
+
+                // Trace 
+                if (Option.NivTrace > 0)
+                {
+                    MajRapport(": Cycle paused", true);
+                }
+            }
+            */
+            //}
             if (MajEntrees() == 0)
             {
                 if (MajCycle() == 0)
                 {
-                   
+
                 }
                 else
                 {
@@ -137,7 +156,10 @@ namespace CTRX
                 Status.CodeError = Id + 1;
             }
 
-            
+            // Timeout
+            // if())
+            // {
+            // }
 
           
         }
